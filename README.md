@@ -6,7 +6,7 @@ Application to test speek recognition with Azure.
 
 - [Client Details](#client-details)
 - [Environment URLS](#environment-urls)
-- [Da Team](#team)
+- [Team](#team)
 - [Management resources](#management-resources)
 - [Setup the project](#setup-the-project)
 - [Running the stack for development](#running-the-stack-for-development)
@@ -74,7 +74,7 @@ After installing please you can follow this simple steps:
 1. Clone this repository into your local machine
 
 ```bash
-$ git clone ...
+$ git clone https://github.com/ProyectoIntegrador2018/blue_birds.git
 ```
 
 2. Fire up a terminal and run:
