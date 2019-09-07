@@ -13,7 +13,7 @@ about: Plantilla que describe una nueva funcionalidad
   Como dueño puedo consultar la lista de películas que han sido rentadas y sus fechas de devolución para poder marcar retardos.
 -->
 
-### Puntos de complejidad
+### Puntos de complejidad (1-5)
 
 <!-- < # de puntos de complejidad > -->
 
@@ -49,8 +49,9 @@ about: Plantilla que describe una nueva funcionalidad
   - Genera valor al negocio?
 -->
 
-- [ ] Elemento 1
-- [ ] Elemento 2
+- [ ] Completo
+- [ ] Cumple INVEST
+- [ ] Entendimiento de la funcionalidad
 
 ## Issues relacionados, Pull Requests y/o recursos
 
