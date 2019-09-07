@@ -1,5 +1,5 @@
 ---
-name: Task
+name: 📝Task
 about: Plantilla que describe tareas técnicas, tales como optimizaciones, refactor, tareas de la base de datos
 ---
 
