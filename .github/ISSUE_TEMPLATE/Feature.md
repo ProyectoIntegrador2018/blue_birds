@@ -13,7 +13,7 @@ about: Plantilla que describe una nueva funcionalidad
   Como dueño puedo consultar la lista de películas que han sido rentadas y sus fechas de devolución para poder marcar retardos.
 -->
 
-### Puntos de complejidad
+### Puntos de complejidad (1-5)
 
 <!-- < # de puntos de complejidad > -->
 
@@ -26,7 +26,7 @@ about: Plantilla que describe una nueva funcionalidad
 
 ### Criterios de aceptación
 
-<!-- Deberás listar los citerios de aceptación de la historia. -->
+<!-- Deberás listar los criterios de aceptación de la historia. -->
 
 - [ ] Criterio de aceptación 1
 - [ ] Criterio de aceptación 2
@@ -42,15 +42,16 @@ about: Plantilla que describe una nueva funcionalidad
 ### Definition of Ready
 
 <!--
-  Lista los cirterios para decidir si un PBI está listo para la planeación..
+  Lista los criterios para decidir si un PBI está listo para la planeación..
   Ej.
   - Completo (Descripción + Comprobación + Conversación)
   - Cumple INVEST
-  - Genera valor al negocio7
+  - Genera valor al negocio?
 -->
 
-- [ ] Elemento 1
-- [ ] Elemento 2
+- [ ] Completo
+- [ ] Cumple INVEST
+- [ ] Entendimiento de la funcionalidad
 
 ## Issues relacionados, Pull Requests y/o recursos
 
