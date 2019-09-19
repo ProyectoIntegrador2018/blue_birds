@@ -1,3 +1,90 @@
+# Translator API Explorer
+
+Application to test speek recognition with Azure.
+
+## Table of contents
+
+- [Client Details](#client-details)
+- [Environment URLS](#environment-urls)
+- [Team](#team)
+- [Management resources](#management-resources)
+- [Setup the project](#setup-the-project)
+- [Running the stack for development](#running-the-stack-for-development)
+- [Stop the project](#stop-the-project)
+- [Restoring the database](#restoring-the-database)
+- [Debugging](#debugging)
+- [Running specs](#running-specs)
+
+### Client Details
+
+| Name       | Email                 | Role                   |
+| ---------- | --------------------- | ---------------------- |
+| Aldo Lares | alares@bluepeople.com | Sales Analysis Manager |
+
+### Environment URLS
+
+- **Production** - [TBD](TBD)
+- **Development** - [TBD](TBD)
+
+### Team
+
+| Name                | Email                      | Role                  |
+| ------------------- | -------------------------- | --------------------- |
+| Carolina Galvan     | carolina.galvanv@gmail.com | Project Manager       |
+| Jorge Avalos        | jorgeavalosaaa@gmail.com   | Scrum Master          |
+| Candy Torres        | candy.torres510@gmail.com  | Product Owner Proxy   |
+| Jose Andres Salazar | joseandresalazar@gmail.com | Configuration Manager |
+
+### Management tools
+
+You should ask for access to this tools if you don't have it already:
+
+- [Github repo](https://github.com/ProyectoIntegrador2018/blue_birds)
+- [Backlog](https://docs.google.com/document/d/1ibd9auC3nlkA--fBIC37PVbHbo4qkUpe6YE5Uf9WbG8/edit?usp=sharing)
+- [Documentation](https://docs.google.com/document/d/1jx1fpkFhEzZHPUsJngT_Qtz-1oZ9JVhEGz6VxkFLheQ/edit?usp=sharing)
+
+## Development
+
+### Setup the project
+
+You'll definitely want to install Node and there are two opotions:
+
+##### Downloading the package:
+
+[Node](https://nodejs.org/en/download/)
+
+OR
+
+##### Homebrew:
+
+1. Download Homebrew
+
+```bash
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+2. Download Node
+
+```bash
+$ brew install node
+```
+
+After installing please you can follow this simple steps:
+
+1. Clone this repository into your local machine
+
+```bash
+$ git clone https://github.com/ProyectoIntegrador2018/blue_birds.git
+```
+
+2. Fire up a terminal and run:
+
+```bash
+$ npm start
+```
+
+### Running the stack for Development
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +153,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Stop the project
+
+In order to stop the project type in your terminal:
+
+```
+% CTRL+C
+```
+
+### Restoring the database
+
+### Debugging
+
+### Running specs
