@@ -6,7 +6,7 @@ import AzureTTSHandler from "./AzureTTSHandler";
 class App extends React.Component {
 
   componentDidMount() {
-    AzureTTSHandler.initializeSDK();
+    AzureTTSHandler.initializeVoiceRecognition("warning","content","phraseDiv","startRecognizeButton" )
   }
 
   render() {
@@ -25,20 +25,9 @@ class App extends React.Component {
                 </td>
               </tr>
               <tr>
-                <td align="right"><a
-                    href="https://docs.microsoft.com/azure/cognitive-services/speech-service/get-started"
-                    target="_blank">Subscription</a>:
-                </td>
-                <td><input id="subscriptionKey" type="text" size="40" value={"1531213b900747749596e8d20221c1b4"} /></td>
-              </tr>
-              <tr>
-                <td align="right">Region</td>
-                <td><input id="serviceRegion" type="text" size="40" value={"SouthCentralUS"}/></td>
-              </tr>
-              <tr>
                 <td></td>
                 <td>
-                  <button id="startRecognizeOnceAsyncButton">Start recognition</button>
+                  <button id="startRecognizeButton">Start recognition</button>
                 </td>
               </tr>
               <tr>

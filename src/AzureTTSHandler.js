@@ -1,6 +1,10 @@
 /*global SpeechSDK*/
 export default class AzureTTSHandler {
-    static initializeSDK(){
+    static SUBSCRIPTION_KEY = "1531213b900747749596e8d20221c1b4";
+    static REGION = "SouthCentralUS";
+
+    static initializeVoiceRecognition(warningDivID, contentDivID, phraseDivID,startVoiceRecordingButtonID){
+
         // status fields and start button in UI
         var phraseDiv;
         var startRecognizeOnceAsyncButton;
@@ -11,10 +15,10 @@ export default class AzureTTSHandler {
         var recognizer;
 
 
-        startRecognizeOnceAsyncButton = document.getElementById("startRecognizeOnceAsyncButton");
-        subscriptionKey = document.getElementById("subscriptionKey");
-        serviceRegion = document.getElementById("serviceRegion");
-        phraseDiv = document.getElementById("phraseDiv");
+        startRecognizeOnceAsyncButton = document.getElementById(startVoiceRecordingButtonID);
+        subscriptionKey = AzureTTSHandler.SUBSCRIPTION_KEY;
+        serviceRegion = AzureTTSHandler.REGION;
+        phraseDiv = document.getElementById(phraseDivID);
 
         startRecognizeOnceAsyncButton.addEventListener("click", function () {
             startRecognizeOnceAsyncButton.disabled = true;
@@ -23,13 +27,13 @@ export default class AzureTTSHandler {
             // if we got an authorization token, use the token. Otherwise use the provided subscription key
             var speechConfig;
             if (authorizationToken) {
-                speechConfig = SpeechSDK.SpeechConfig.fromAuthorizationToken(authorizationToken, serviceRegion.value);
+                speechConfig = SpeechSDK.SpeechConfig.fromAuthorizationToken(authorizationToken, serviceRegion);
             } else {
                 if (subscriptionKey.value === "" || subscriptionKey.value === "subscription") {
                     alert("Please enter your Microsoft Cognitive Services Speech subscription key!");
                     return;
                 }
-                speechConfig = SpeechSDK.SpeechConfig.fromSubscription(subscriptionKey.value, serviceRegion.value);
+                speechConfig = SpeechSDK.SpeechConfig.fromSubscription(subscriptionKey, serviceRegion);
             }
 
             speechConfig.speechRecognitionLanguage = "en-US";
@@ -59,8 +63,8 @@ export default class AzureTTSHandler {
 
             startRecognizeOnceAsyncButton.disabled = false;
 
-            document.getElementById('content').style.display = 'block';
-            document.getElementById('warning').style.display = 'none';
+            document.getElementById(contentDivID).style.display = 'block';
+            document.getElementById(warningDivID).style.display = 'none';
         }
 
     }
