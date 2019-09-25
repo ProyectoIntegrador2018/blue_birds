@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AzureTTSHandler from "./AzureTTSHandler";
 
 class App extends React.Component {
 
-
+  componentDidMount() {
+    AzureTTSHandler.initializeSDK();
+  }
 
   render() {
     return (
