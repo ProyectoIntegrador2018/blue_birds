@@ -21,7 +21,7 @@ class App extends React.Component {
             <table width="100%">
               <tr>
                 <td></td>
-                <td><h1 style={{fontWeight: "500"}}>Microsoft Cognitive Services Speech SDK JavaScript Quickstart</h1>
+                <td><h1 style={{fontWeight: "500"}}>Blue people voice to text</h1>
                 </td>
               </tr>
               <tr>
