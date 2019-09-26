@@ -1,7 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-// import logo from './logo.svg';
-import microphone from './microphone.png';
-import send from './send.png';
+import microphone from './assets/microphone.png';
+import send from './assets/send.png';
 
 import './App.css';
 
@@ -18,8 +18,7 @@ function App() {
 
       <section class="message-section">
         <div class="h-75 container-fluid message-output">
-          hola
-          <p>hola</p>
+          
         </div>
 
         <div class="container-fluid">
@@ -27,7 +26,7 @@ function App() {
             <div class="row">
               <div class="col-1">
                 <button type="button" id="microphone-btn">
-                  <img src={microphone} class="text-button"/>
+                  <img src={microphone} alt="responsive-button"/>
                 </button>
               </div>
               <div class="col-10 text-left">
@@ -35,7 +34,7 @@ function App() {
               </div>
               <div class="col-1">
                 <button type="button" id="send-btn">
-                  <img src={send} class="text-button"/>
+                  <img src={send} alt="responsive-button"/>
                 </button>
               </div>
             </div>
