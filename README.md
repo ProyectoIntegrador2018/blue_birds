@@ -1,5 +1,7 @@
 # Translator API Explorer
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/860404a35e3795b8b281/maintainability)](https://codeclimate.com/github/ProyectoIntegrador2018/blue_birds/maintainability)
+
 Application to test speek recognition with Azure.
 
 ## Table of contents
