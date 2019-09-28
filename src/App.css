@@ -37,16 +37,22 @@ button{
   border-radius: 18px;
 }
 
+.align-right { 
+  float: right; 
+}
+
 /* Id's */
 #text-field{
   margin-left: 10px;
   background-color: rgb(241, 238, 238);
-  border: 0px;
+  resize: vertical;
+  width: 65%;
 }
 
-#microphpne-btn{
+@media all and (min-width: 300px){
+  #microphone-btn, #send-btn{
+      box-sizing: border-box;
+      margin: auto;
+      overflow: hidden;
+  }
 }
-
-#send-btn{
-}
-
