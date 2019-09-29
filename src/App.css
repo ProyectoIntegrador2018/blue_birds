@@ -1,22 +1,58 @@
+/* Elements */
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+input[type=text]:focus{
+  outline: 2px solid rgb(241, 238, 238);
+  max-width:100%;
+  max-height:100%;
+}
+
+button{
+  border: none;
+  background-color: rgb(241, 238, 238);
+  border-radius: 18px;
+  padding: 15px;
+  width: 45px;
+}
+
+/* Clases */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-bar {
+  background-image: linear-gradient(to bottom right, #59c0fc, rgb(153, 91, 253));
   color: white;
+  text-align: center;
+  padding: 10px 0px;
 }
 
-.App-link {
-  color: #09d3ac;
+.text-bar{
+  border: 1px solid rgb(241, 238, 238);
+  background-color: rgb(241, 238, 238);
+  border-radius: 18px;
+}
+
+.align-right { 
+  float: right; 
+}
+
+/* Id's */
+#text-field{
+  margin-left: 10px;
+  background-color: rgb(241, 238, 238);
+  resize: vertical;
+  width: 65%;
+}
+
+@media all and (min-width: 300px){
+  #microphone-btn, #send-btn{
+      box-sizing: border-box;
+      margin: auto;
+      overflow: hidden;
+  }
 }
