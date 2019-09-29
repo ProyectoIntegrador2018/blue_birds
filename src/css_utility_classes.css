@@ -1,6 +1,10 @@
 :root {
-    --primary-color: #333;
-    --secondary-color: #f4f4f4;
+    /* Paleta de colores */
+    --primary-first-color: #000;
+    --primary-second-color: #fff;
+    --secondary-first-color: #59c0fc;
+    --secondary-second-color: #995bfd;
+    --secondary-third-color: #f1eeee;
 }
 
 /* Reset */
