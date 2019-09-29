@@ -5,7 +5,6 @@ export default class AzureTTSHandler {
 
   static initializeVoiceRecognition(
     warningDivID,
-    contentDivID,
     phraseDivID,
     startVoiceRecordingButtonID
   ) {
@@ -27,6 +26,7 @@ export default class AzureTTSHandler {
 
     startRecognizeOnceAsyncButton.addEventListener("click", function() {
       startRecognizeOnceAsyncButton.disabled = true;
+      startRecognizeOnceAsyncButton.style.backgroundColor = "red";
       phraseDiv.innerHTML = "";
 
       // if we got an authorization token, use the token. Otherwise use the provided subscription key
@@ -59,6 +59,7 @@ export default class AzureTTSHandler {
       recognizer.recognizeOnceAsync(
         function(result) {
           startRecognizeOnceAsyncButton.disabled = false;
+          startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
           phraseDiv.innerHTML += result.text;
           console.log(result);
 
@@ -67,6 +68,7 @@ export default class AzureTTSHandler {
         },
         function(err) {
           startRecognizeOnceAsyncButton.disabled = false;
+          startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
           phraseDiv.innerHTML += err;
           console.log(err);
 
@@ -78,8 +80,8 @@ export default class AzureTTSHandler {
 
     if (!!SpeechSDK) {
       startRecognizeOnceAsyncButton.disabled = false;
+      startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
 
-      document.getElementById(contentDivID).style.display = "block";
       document.getElementById(warningDivID).style.display = "none";
     }
   }

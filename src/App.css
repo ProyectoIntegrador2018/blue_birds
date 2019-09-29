@@ -1,17 +1,17 @@
 /* Elements */
-img{
+img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-input[type=text]:focus{
+input[type="text"]:focus {
   outline: 2px solid rgb(241, 238, 238);
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-button{
+button {
   border: none;
   background-color: rgb(241, 238, 238);
   border-radius: 18px;
@@ -25,34 +25,38 @@ button{
 }
 
 .header-bar {
-  background-image: linear-gradient(to bottom right, #59c0fc, rgb(153, 91, 253));
+  background-image: linear-gradient(
+    to bottom right,
+    #59c0fc,
+    rgb(153, 91, 253)
+  );
   color: white;
   text-align: center;
   padding: 10px 0px;
 }
 
-.text-bar{
+.text-bar {
   border: 1px solid rgb(241, 238, 238);
   background-color: rgb(241, 238, 238);
   border-radius: 18px;
 }
 
-.align-right { 
-  float: right; 
+.align-right {
+  float: right;
 }
 
 /* Id's */
-#text-field{
-  margin-left: 10px;
+#phraseDiv {
   background-color: rgb(241, 238, 238);
   resize: vertical;
-  width: 65%;
+  padding-top: 10px;
 }
 
-@media all and (min-width: 300px){
-  #microphone-btn, #send-btn{
-      box-sizing: border-box;
-      margin: auto;
-      overflow: hidden;
+@media all and (min-width: 300px) {
+  #startRecognizeButton,
+  #send-btn {
+    box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
   }
 }
