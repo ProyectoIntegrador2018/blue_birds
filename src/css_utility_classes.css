@@ -1,0 +1,48 @@
+/* Posibles utility classes para que se usen en distintos módulos. Estas clases no requieren Bootstrap */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: #75a73c;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: white;
+}
+
+.bg-primary {
+    background: #75a73c;
+    color: white;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.7;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
