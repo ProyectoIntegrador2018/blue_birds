@@ -1,8 +1,6 @@
 import React from "react";
 import AzureTTSHandler from "../AzureTTSHandler";
-
-import microphone from "../assets/microphone.png";
-import send from "../assets/send.png";
+import MessageBar from "./MessageBar";
 
 class MessageSection extends React.Component {
   componentDidMount() {
@@ -21,23 +19,7 @@ class MessageSection extends React.Component {
           class="container-fluid"
           style={{ paddingLeft: 0, paddingRight: 0 }}
         >
-          <div class="text-bar text-left">
-            <div class="row justify-content-center">
-              <div class="col-sm-1">
-                <button type="button" id="startRecognizeButton">
-                  <img src={microphone} alt="responsive-button" />
-                </button>
-              </div>
-              <div class="col-sm-10">
-                <div id="phraseDiv" placeholder="Type something here..." />
-              </div>
-              <div class="col-sm-1">
-                <button type="button" id="send-btn" class="align-right">
-                  <img src={send} alt="responsive-button" />
-                </button>
-              </div>
-            </div>
-          </div>
+          <MessageBar />
         </div>
         <div id="warning">
           <h1 style={{ fontWeight: "500" }}>
