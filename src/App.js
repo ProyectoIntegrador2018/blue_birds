@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import TestingSDKComponent from "./testingSDKComponent";
-import './App.css';
 import microphone from './assets/microphone.png';
 import send from './assets/send.png';
+
+import './App.css';
 
 function App() {
   return (
