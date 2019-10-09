@@ -163,3 +163,9 @@ In order to stop the project type in your terminal:
 ```
 % CTRL+C
 ```
+
+### Restoring the database
+
+### Debugging
+
+### Running specs
