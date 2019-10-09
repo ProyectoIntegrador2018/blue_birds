@@ -2,6 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
 
+import MessageSection from "./components/MessageSection";
+
 class App extends React.Component {
   render() {
     return (
@@ -12,6 +14,7 @@ class App extends React.Component {
             <p class="lead">Translator API Explorer</p>
           </div>
         </header>
+        <MessageSection />
       </div>
     );
   }
