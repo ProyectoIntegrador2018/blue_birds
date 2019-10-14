@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -61,6 +63,10 @@ button {
   border: 1px solid rgb(241, 238, 238);
   background-color: rgb(241, 238, 238);
   border-radius: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Footer height */
 }
 
 .align-right {
@@ -74,6 +80,10 @@ button {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
+}
+
+#content-wrap {
+  padding-bottom: 50px; /* Footer height */
 }
 
 @media all and (min-width: 300px) {
