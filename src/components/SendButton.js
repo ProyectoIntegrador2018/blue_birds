@@ -3,7 +3,7 @@ import send from "../assets/send.png";
 
 export default function SendButton() {
   return (
-    <button type="button" id="send-btn" class="align-right">
+    <button type="button" id="send-btn" className="align-right">
       <img src={send} alt="responsive-button" />
     </button>
   );
