@@ -5,11 +5,11 @@ export default class AzureTTSHandler {
 
   static initializeVoiceRecognition(
     warningDivID,
-    phraseDivID,
+    phraseInputID,
     startVoiceRecordingButtonID
   ) {
     // status fields and start button in UI
-    var phraseDiv;
+    var phraseInput;
     var startRecognizeOnceAsyncButton;
 
     // subscription key and region for speech services.
@@ -22,12 +22,12 @@ export default class AzureTTSHandler {
     );
     subscriptionKey = AzureTTSHandler.SUBSCRIPTION_KEY;
     serviceRegion = AzureTTSHandler.REGION;
-    phraseDiv = document.getElementById(phraseDivID);
+    phraseInput = document.getElementById(phraseInputID);
 
     startRecognizeOnceAsyncButton.addEventListener("click", function() {
       startRecognizeOnceAsyncButton.disabled = true;
       startRecognizeOnceAsyncButton.style.backgroundColor = "red";
-      phraseDiv.innerHTML = "";
+      phraseInput.value = "";
 
       // if we got an authorization token, use the token. Otherwise use the provided subscription key
       var speechConfig;
@@ -52,16 +52,19 @@ export default class AzureTTSHandler {
         );
       }
 
-      speechConfig.speechRecognitionLanguage = "es-MX";
+      speechConfig.speechRecognitionLanguage =
+        startVoiceRecordingButtonID === "startRecognizeButtonSpanish"
+          ? "es-MX"
+          : "en-US";
+
       var audioConfig = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
       recognizer = new SpeechSDK.SpeechRecognizer(speechConfig, audioConfig);
-      console.log(recognizer);
+
       recognizer.recognizeOnceAsync(
         function(result) {
           startRecognizeOnceAsyncButton.disabled = false;
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
-          phraseDiv.innerHTML += result.text;
-          console.log(result);
+          phraseInput.value += result.text;
 
           recognizer.close();
           recognizer = undefined;
@@ -69,8 +72,7 @@ export default class AzureTTSHandler {
         function(err) {
           startRecognizeOnceAsyncButton.disabled = false;
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
-          phraseDiv.innerHTML += err;
-          console.log(err);
+          phraseInput.value += err;
 
           recognizer.close();
           recognizer = undefined;
