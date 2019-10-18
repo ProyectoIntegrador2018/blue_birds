@@ -27,7 +27,6 @@ export default class AzureTTSHandler {
     startRecognizeOnceAsyncButton.addEventListener("click", function() {
       startRecognizeOnceAsyncButton.disabled = true;
       startRecognizeOnceAsyncButton.style.backgroundColor = "red";
-      phraseInput.value = "";
 
       // if we got an authorization token, use the token. Otherwise use the provided subscription key
       var speechConfig;
@@ -60,7 +59,7 @@ export default class AzureTTSHandler {
         function(result) {
           startRecognizeOnceAsyncButton.disabled = false;
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
-          phraseInput.value += result.text;
+          phraseInput.value += result.text + " ";
 
           recognizer.close();
           recognizer = undefined;
