@@ -1,7 +1,10 @@
 import React from "react";
 import SendButton from "./SendButton";
 import Microphone from "./Microphone";
+
 export default class MessageBar extends React.Component {
+  
+
   render() {
     return (
       <div
@@ -21,7 +24,7 @@ export default class MessageBar extends React.Component {
                 id="phraseInput"
               />
               <div className="input-group-append" id="button-addon4">
-                <SendButton />
+                <SendButton onClick={this.props.onClick}/>
               </div>
             </div>
           </div>
