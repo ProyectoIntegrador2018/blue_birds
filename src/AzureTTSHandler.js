@@ -34,6 +34,7 @@ export default class AzureTTSHandler {
       phraseInput.style.display = "none";
       animation.style.display = "block";
 
+
       // if we got an authorization token, use the token. Otherwise use the provided subscription key
       var speechConfig;
       if (authorizationToken) {
@@ -71,7 +72,7 @@ export default class AzureTTSHandler {
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
           phraseInput.style.display = "block";
           animation.style.display = "none";
-          phraseInput.value += result.text;
+          phraseInput.value += result.text + " ";
 
           recognizer.close();
           recognizer = undefined;

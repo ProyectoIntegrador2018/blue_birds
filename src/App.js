@@ -7,6 +7,25 @@ import MessageSection from "./components/MessageSection";
 import MessageBar from "./components/MessageBar";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.messageList = [];
+
+    this.sendMessage = this.sendMessage.bind(this);
+  }
+
+  sendMessage() {
+    let phraseInput = document.getElementById("phraseInput");
+    let message = phraseInput.value;
+    phraseInput.value = "";
+    this.messageList.push({
+      key: this.messageList.length,
+      is_receiver: false,
+      message: message
+    });
+    this.forceUpdate();
+  }
+
   componentDidMount() {
     AzureTTSHandler.initializeVoiceRecognition(
       "warning",
@@ -33,9 +52,9 @@ class App extends React.Component {
               <p className="lead">Translator API Explorer</p>
             </div>
           </header>
-          <MessageSection />
+          <MessageSection messageList={this.messageList}/>
         </div>
-        <MessageBar />
+        <MessageBar onClick={this.sendMessage}/>
       </div>
     );
   }
