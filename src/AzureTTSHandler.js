@@ -6,11 +6,13 @@ export default class AzureTTSHandler {
   static initializeVoiceRecognition(
     warningDivID,
     phraseInputID,
-    startVoiceRecordingButtonID
+    startVoiceRecordingButtonID,
+    animationID
   ) {
     // status fields and start button in UI
     var phraseInput;
     var startRecognizeOnceAsyncButton;
+    var animation;
 
     // subscription key and region for speech services.
     var subscriptionKey, serviceRegion;
@@ -23,11 +25,14 @@ export default class AzureTTSHandler {
     subscriptionKey = AzureTTSHandler.SUBSCRIPTION_KEY;
     serviceRegion = AzureTTSHandler.REGION;
     phraseInput = document.getElementById(phraseInputID);
+    animation = document.getElementById(animationID);
 
     startRecognizeOnceAsyncButton.addEventListener("click", function () {
       startRecognizeOnceAsyncButton.disabled = true;
-      startRecognizeOnceAsyncButton.style.backgroundColor = "red";
+      startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
       phraseInput.value = "";
+      phraseInput.style.display = "none";
+      animation.style.display = "block";
 
       // if we got an authorization token, use the token. Otherwise use the provided subscription key
       var speechConfig;
@@ -64,6 +69,8 @@ export default class AzureTTSHandler {
         function (result) {
           startRecognizeOnceAsyncButton.disabled = false;
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
+          phraseInput.style.display = "block";
+          animation.style.display = "none";
           phraseInput.value += result.text;
 
           recognizer.close();

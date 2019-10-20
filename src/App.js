@@ -11,13 +11,15 @@ class App extends React.Component {
     AzureTTSHandler.initializeVoiceRecognition(
       "warning",
       "phraseInput",
-      "startRecognizeButtonSpanish"
+      "startRecognizeButtonSpanish",
+      "soundWave"
     );
 
     AzureTTSHandler.initializeVoiceRecognition(
       "warning",
       "phraseInput",
-      "startRecognizeButtonEnglish"
+      "startRecognizeButtonEnglish",
+      "soundWave"
     );
   }
 
