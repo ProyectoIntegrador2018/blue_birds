@@ -2,30 +2,43 @@ import React from "react";
 import "css-toggle-switch/src/toggle-switch.scss";
 
 const switchStyle = {
-  width: "200px",
+  width: "60px",
   margin: "auto",
   align: "center",
   background: "#c6cacc",
   color: "white",
-  fontSize: "12px"
+  fontSize: "12px",
+  marginRight: "10px"
 };
 
 const buttonStyle = {
   background: "rgb(93, 182, 146)"
 };
 
-export default function LanguagePicker() {
-  return (
-    <div class="switch-toggle alert alert-light" style={switchStyle}>
-      <input id="SPA" name="view" type="radio" value="SPA" checked></input>
-      <label for="SPA" onClick="">
-        Español
-      </label>
-      <input id="EN" name="view" value="EN" type="radio"></input>
-      <label for="EN" onClick="">
-        English
-      </label>
-      <a class="btn" style={buttonStyle}></a>
-    </div>
-  );
+export default class LanguagePicker extends React.Component {
+  changeLanguage(e) {
+    if (e.target.value === "es-MX") {
+      this.handleChange("startRecognizeButtonEnglish", "none");
+      this.handleChange("startRecognizeButtonSpanish", "block");
+    } else {
+      this.handleChange("startRecognizeButtonEnglish", "block");
+      this.handleChange("startRecognizeButtonSpanish", "none");
+    }
+  }
+
+  handleChange(buttonId, displayOption) {
+    document.getElementById(buttonId).style.display = displayOption;
+  }
+
+  render() {
+    return (
+      <div className="switch-toggle alert alert-light" style={switchStyle}>
+        <input id="ES" name="language" type="radio" value="es-MX" onChange={e => this.changeLanguage(e)} />
+        <label htmlFor="ES">ES</label>
+        <input id="EN" name="language" type="radio" value="en-US" onChange={e => this.changeLanguage(e)} />
+        <label htmlFor="EN">EN</label>
+        <a className="btn" style={buttonStyle} href="#"></a>
+      </div>
+    );
+  }
 }

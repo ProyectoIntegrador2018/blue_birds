@@ -24,7 +24,7 @@ export default class AzureTTSHandler {
     serviceRegion = AzureTTSHandler.REGION;
     phraseInput = document.getElementById(phraseInputID);
 
-    startRecognizeOnceAsyncButton.addEventListener("click", function() {
+    startRecognizeOnceAsyncButton.addEventListener("click", function () {
       startRecognizeOnceAsyncButton.disabled = true;
       startRecognizeOnceAsyncButton.style.backgroundColor = "red";
 
@@ -51,12 +51,16 @@ export default class AzureTTSHandler {
         );
       }
 
-      speechConfig.speechRecognitionLanguage = "es-MX";
+      speechConfig.speechRecognitionLanguage =
+        startVoiceRecordingButtonID === "startRecognizeButtonSpanish"
+          ? "es-MX"
+          : "en-US";
+
       var audioConfig = SpeechSDK.AudioConfig.fromDefaultMicrophoneInput();
       recognizer = new SpeechSDK.SpeechRecognizer(speechConfig, audioConfig);
 
       recognizer.recognizeOnceAsync(
-        function(result) {
+        function (result) {
           startRecognizeOnceAsyncButton.disabled = false;
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
           phraseInput.value += result.text + " ";
@@ -64,7 +68,7 @@ export default class AzureTTSHandler {
           recognizer.close();
           recognizer = undefined;
         },
-        function(err) {
+        function (err) {
           startRecognizeOnceAsyncButton.disabled = false;
           startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
           phraseInput.value += err;
