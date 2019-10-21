@@ -30,7 +30,6 @@ export default class AzureTTSHandler {
     startRecognizeOnceAsyncButton.addEventListener("click", function () {
       startRecognizeOnceAsyncButton.disabled = true;
       startRecognizeOnceAsyncButton.style.backgroundColor = "transparent";
-      phraseInput.value = "";
       phraseInput.style.display = "none";
       animation.style.display = "block";
 
