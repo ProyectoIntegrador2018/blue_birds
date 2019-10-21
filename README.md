@@ -25,8 +25,7 @@ Application to test speek recognition with Azure.
 
 ### Environment URLS
 
-- **Production** - [TBD](TBD)
-- **Development** - [TBD](TBD)
+- **Development** - [https://blue-surf-api-explorer.herokuapp.com/](https://blue-surf-api-explorer.herokuapp.com/)
 
 ### Team
 
