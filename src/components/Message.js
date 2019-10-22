@@ -11,15 +11,21 @@ class Message extends React.Component {
   render() {
     if (this.is_receiver) {
       return (
-        <div className="message received-message">
-          {this.message}
+        <div className="left messages">
+          <div className="message">
+            {this.message}
+          </div>
         </div>
+        
       );
     } else {
       return (
-        <div className="message sent-message">
-          {this.message}
+        <div className="right messages">
+          <div className="message">
+            {this.message}
+          </div>
         </div>
+        
       );
     }
   }
