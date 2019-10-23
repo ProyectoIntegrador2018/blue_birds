@@ -82,6 +82,40 @@ button {
   padding-bottom: 50px; /* Footer height */
 }
 
+/* Messenger */
+
+.container-messenger {
+  font-family: helvetica;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+}
+
+.messenger {
+  width: 100vw;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: .5rem;
+  overflow: auto;
+  height: 65vh;
+}
+
+.messages {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
 @media all and (min-width: 300px) {
   #startRecognizeButton,
   #send-btn {
