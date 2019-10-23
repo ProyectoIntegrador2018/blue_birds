@@ -14,7 +14,7 @@ class MessageSection extends React.Component {
 
   render() {
     return (
-      <section className="message-section">
+      <section className="messenger">
         {this.messageList.map((message, index) => (<Message key={message.key} is_receiver={message.is_receiver} message={message.message} />))}
         {/* <div className="h-75 container-fluid message-output"></div> */}
         <div id="warning">
