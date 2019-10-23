@@ -8,7 +8,9 @@ class Message extends React.Component {
     this.message = props.message;
   }
 
+
   render() {
+
     if (this.is_receiver) {
       return (
         <div className="left messages">

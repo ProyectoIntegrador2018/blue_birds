@@ -142,6 +142,54 @@ button {
   position: relative;
 }
 
+/* Add tail to the end of messages */
+.left .message:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -7px;
+  height: 20px;
+  width: 20px;
+  background: #eee;
+  border-bottom-right-radius: 15px;
+}
+
+.left .message:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+}
+
+.right .message:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  height: 20px;
+  width: 20px;
+  background-color: #59c0fc;
+  border-bottom-left-radius: 15px;
+}
+
+.right .message:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-left-radius: 10px;
+}
+
 
 
 @media all and (min-width: 300px) {
