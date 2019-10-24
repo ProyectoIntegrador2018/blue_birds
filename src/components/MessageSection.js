@@ -2,6 +2,19 @@ import React from "react";
 import Message from "./Message";
 
 class MessageSection extends React.Component {
+  
+  componentDidMount() { 
+    this.scrollToBottom();
+  }
+
+  componentDidUpdate() {
+    this.scrollToBottom();
+  }
+
+  scrollToBottom() {
+    this.el.scrollIntoView({ behavior: 'smooth' });
+  }
+
   constructor(props) {
     super(props)
     if (!props.messageList) {
@@ -23,6 +36,7 @@ class MessageSection extends React.Component {
             (microsoft.cognitiveservices.speech.sdk.bundle.js missing).
           </h1>
         </div>
+        <div ref={el => { this.el = el; }} />
       </section>
     );
   }

@@ -18,8 +18,8 @@ class Message extends React.Component {
      }
 
      return (
-       <div class={this.clase}>
-        <div class="message">
+       <div className={this.clase}>
+        <div className="message">
              <p>{this.message}</p>
          </div>
        </div>
