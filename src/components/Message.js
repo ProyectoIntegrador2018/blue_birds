@@ -12,9 +12,9 @@ class Message extends React.Component {
   render() {
     
      if(this.is_receiver) {
-       this.clase = 'right messages';
-     } else {
        this.clase = 'left messages';
+     } else {
+       this.clase = 'right messages';
      }
 
      return (
