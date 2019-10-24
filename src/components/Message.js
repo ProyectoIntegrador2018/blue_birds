@@ -6,22 +6,24 @@ class Message extends React.Component {
     super(props);
     this.is_receiver = props.is_receiver;
     this.message = props.message;
+    this.clase = ''
   }
 
   render() {
-    if (this.is_receiver) {
-      return (
-        <div className="messages">
-          {this.message}
-        </div>
-      );
-    } else {
-      return (
-        <div className="messages">
-          {this.message}
-        </div>
-      );
-    }
+    
+     if(this.is_receiver) {
+       this.clase = 'right messages';
+     } else {
+       this.clase = 'left messages';
+     }
+
+     return (
+       <div class={this.clase}>
+        <div class="message">
+             <p>{this.message}</p>
+         </div>
+       </div>
+    );
   }
 }
 
