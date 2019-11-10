@@ -14,16 +14,25 @@ class App extends React.Component {
     this.sendMessage = this.sendMessage.bind(this);
   }
 
+  processMessage(message) {
+    var lowerMessage = message.toLowerCase();
+    const language = document.getElementsByName("language")[0].checked;
+    console.log(lowerMessage, language);
+  }
+
   sendMessage() {
     let phraseInput = document.getElementById("phraseInput");
     let message = phraseInput.value;
-    phraseInput.value = "";
-    this.messageList.push({
-      key: this.messageList.length,
-      is_receiver: false,
-      message: message
-    });
-    this.forceUpdate();
+    if (message !== "") {
+      this.processMessage(message);
+      phraseInput.value = "";
+      this.messageList.push({
+        key: this.messageList.length,
+        is_receiver: false,
+        message: message
+      });
+      this.forceUpdate();
+    }
   }
 
   componentDidMount() {
@@ -33,6 +42,8 @@ class App extends React.Component {
       "startRecognizeButtonSpanish",
       "soundWave"
     );
+
+    document.getElementsByName("language")[0].checked = true;
 
     AzureTTSHandler.initializeVoiceRecognition(
       "warning",
@@ -52,9 +63,9 @@ class App extends React.Component {
               <p className="lead">Translator API Explorer</p>
             </div>
           </header>
-          <MessageSection messageList={this.messageList}/>
+          <MessageSection messageList={this.messageList} />
         </div>
-        <MessageBar onClick={this.sendMessage}/>
+        <MessageBar onClick={this.sendMessage} />
       </div>
     );
   }
