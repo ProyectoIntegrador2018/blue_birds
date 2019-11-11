@@ -48,7 +48,6 @@ class App extends React.Component {
   processMessage(message) {
     var lowerMessage = message.toLowerCase();
     const language = document.getElementsByName("language")[0].checked;
-    console.log(language);
     const response = language
       ? this.state.processor.matchSpanish(lowerMessage)
       : this.state.processor.matchEnglish(lowerMessage);

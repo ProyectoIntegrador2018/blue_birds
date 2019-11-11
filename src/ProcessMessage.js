@@ -3,6 +3,7 @@ export default class ProcessMessage {
     this.order = [];
     this.stackMessages = [];
     this.restaurants = [];
+    this.total = 0;
   }
 
   static spanishTextToNumbers = {
@@ -88,7 +89,12 @@ export default class ProcessMessage {
         total += order.precio;
       });
       orderStr += `Total: $${total}`;
-      return orderStr;
+      if (this.total === total) {
+        return "No encontré esos platillos en el restaurante que me dijiste.";
+      } else {
+        this.total = total;
+        return orderStr;
+      }
     } else {
       this.stackMessages.push(message);
       return "Disculpa pero no pude procesar correctamente tu orden ya que no encontré el restaurante de donde deseas ordenar, me lo puedes mencionar?";
@@ -140,7 +146,12 @@ export default class ProcessMessage {
         total += order.price;
       });
       orderStr += `Total: $${total}`;
-      return orderStr;
+      if (this.total === total) {
+        return "I didn't found those foods on the restaurant that you told me.";
+      } else {
+        this.total = total;
+        return orderStr;
+      }
     } else {
       this.stackMessages.push(message);
       return "Sorry but I couldn't process your order correctly because I didn't found a restaurant in your order, could you mention it?";
