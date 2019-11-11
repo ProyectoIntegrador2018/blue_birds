@@ -18,16 +18,37 @@ class App extends React.Component {
         key: 0,
         is_receiver: true,
         message:
-          "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar Orden'"
+          "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'"
       }
     ];
-
+    this.pushMessageToList = this.pushMessageToList.bind(this);
     this.sendMessage = this.sendMessage.bind(this);
+  }
+
+  pushMessageToList(message) {
+    this.messageList.push({
+      key: this.messageList.length,
+      is_receiver: true,
+      message
+    });
+  }
+
+  pushSpanishInfo() {
+    this.pushMessageToList(
+      "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'"
+    );
+  }
+
+  pushEnglishInfo() {
+    this.pushMessageToList(
+      "Hello, I am here to help you process your order, what would you be ordering today? To cancel your order please say 'Cancel order'"
+    );
   }
 
   processMessage(message) {
     var lowerMessage = message.toLowerCase();
     const language = document.getElementsByName("language")[0].checked;
+    console.log(language);
     const response = language
       ? this.state.processor.matchSpanish(lowerMessage)
       : this.state.processor.matchEnglish(lowerMessage);
@@ -83,7 +104,11 @@ class App extends React.Component {
           </header>
           <MessageSection messageList={this.messageList} />
         </div>
-        <MessageBar onClick={this.sendMessage} />
+        <MessageBar
+          onClick={this.sendMessage}
+          pushSpanish={this.pushSpanishInfo}
+          pushEnglish={this.pushEnglishInfo}
+        />
       </div>
     );
   }

@@ -24,6 +24,16 @@ export default class ProcessMessage {
     }
   };
 
+  static englishDB = {
+    "mcdonald's": {
+      hamburger: 20,
+      fries: 5
+    },
+    "burger king": {
+      whopper: 50
+    }
+  };
+
   matchSpanish(message) {
     if (message === "cancelar orden") {
       this.order = [];
@@ -86,10 +96,54 @@ export default class ProcessMessage {
   }
 
   matchEnglish(message) {
-    if (message.includes("hello")) {
-      return "Hello, I am here to help you process your order, what would you be ordering today?";
+    if (message === "cancel order") {
+      this.order = [];
+      return "Order Canceled";
+    }
+    const wordArray = message.split(" ");
+    for (const restaurant in ProcessMessage.englishDB) {
+      if (message.includes(restaurant)) {
+        this.restaurants.push(restaurant);
+      }
+    }
+
+    if (this.restaurants.length > 0) {
+      while (this.restaurants.length > 0) {
+        const restaurant = this.restaurants.pop();
+        const element = ProcessMessage.englishDB[restaurant];
+        for (const food in element) {
+          if (message.includes(food)) {
+            var indexOf =
+              wordArray.indexOf(food) > -1
+                ? wordArray.indexOf(food)
+                : wordArray.indexOf(food + "s");
+            const quantity = parseInt(wordArray[indexOf - 1]);
+            this.order.push({
+              restaurant,
+              food,
+              quantity,
+              price: element[food] * quantity
+            });
+          }
+        }
+      }
+      this.order.sort((a, b) =>
+        a.restaurant > b.restaurant ? 1 : b.restaurant > a.restaurant ? -1 : 0
+      );
+
+      var orderStr = "Your order: \n";
+      var total = 0;
+      this.order.forEach((order, index) => {
+        orderStr += `${index + 1}) Restaurant: ${order.restaurant} Quantity: ${
+          order.quantity
+        } Food: ${order.food} Price: $${order.price} `;
+        total += order.price;
+      });
+      orderStr += `Total: $${total}`;
+      return orderStr;
     } else {
-      return "Sorry but I am still learning, can you repeat that or explain it different?";
+      this.stackMessages.push(message);
+      return "Sorry but I couldn't process your order correctly because I didn't found a restaurant in your order, could you mention it?";
     }
   }
 }
