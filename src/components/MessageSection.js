@@ -2,8 +2,7 @@ import React from "react";
 import Message from "./Message";
 
 class MessageSection extends React.Component {
-  
-  componentDidMount() { 
+  componentDidMount() {
     this.scrollToBottom();
   }
 
@@ -12,23 +11,28 @@ class MessageSection extends React.Component {
   }
 
   scrollToBottom() {
-    this.el.scrollIntoView({ behavior: 'smooth' });
+    this.el.scrollIntoView({ behavior: "smooth" });
   }
 
   constructor(props) {
-    super(props)
+    super(props);
     if (!props.messageList) {
-      this.messageList = []
+      this.messageList = [];
     } else {
-      this.messageList = props.messageList
+      this.messageList = props.messageList;
     }
-
   }
 
   render() {
     return (
       <section className="messenger">
-        {this.messageList.map((message, index) => (<Message key={message.key} is_receiver={message.is_receiver} message={message.message} />))}
+        {this.messageList.map((message, index) => (
+          <Message
+            key={message.key}
+            is_receiver={message.is_receiver}
+            message={message.message}
+          />
+        ))}
         {/* <div className="h-75 container-fluid message-output"></div> */}
         <div id="warning">
           <h1 style={{ fontWeight: "500" }}>
@@ -36,7 +40,11 @@ class MessageSection extends React.Component {
             (microsoft.cognitiveservices.speech.sdk.bundle.js missing).
           </h1>
         </div>
-        <div ref={el => { this.el = el; }} />
+        <div
+          ref={el => {
+            this.el = el;
+          }}
+        />
       </section>
     );
   }

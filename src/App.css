@@ -100,7 +100,7 @@ button {
   padding-right: 2rem;
   border-radius: 0.5rem;
   overflow: auto;
-  height: 65vh;
+  height: (100vh - 50px);
 }
 
 .messages {

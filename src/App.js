@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
 import AzureTTSHandler from "./AzureTTSHandler";
+import ProcessMessage from "./ProcessMessage";
 
 import MessageSection from "./components/MessageSection";
 import MessageBar from "./components/MessageBar";
@@ -9,6 +10,9 @@ import MessageBar from "./components/MessageBar";
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      processor: new ProcessMessage()
+    };
     this.messageList = [];
 
     this.sendMessage = this.sendMessage.bind(this);
@@ -17,20 +21,27 @@ class App extends React.Component {
   processMessage(message) {
     var lowerMessage = message.toLowerCase();
     const language = document.getElementsByName("language")[0].checked;
-    console.log(lowerMessage, language);
+    const response = language
+      ? this.state.processor.matchSpanish(lowerMessage)
+      : this.state.processor.matchEnglish(lowerMessage);
+    this.messageList.push({
+      key: this.messageList.length,
+      is_receiver: true,
+      message: response
+    });
   }
 
   sendMessage() {
     let phraseInput = document.getElementById("phraseInput");
     let message = phraseInput.value;
     if (message !== "") {
-      this.processMessage(message);
       phraseInput.value = "";
       this.messageList.push({
         key: this.messageList.length,
         is_receiver: false,
         message: message
       });
+      this.processMessage(message);
       this.forceUpdate();
     }
   }
@@ -43,14 +54,14 @@ class App extends React.Component {
       "soundWave"
     );
 
-    document.getElementsByName("language")[0].checked = true;
-
     AzureTTSHandler.initializeVoiceRecognition(
       "warning",
       "phraseInput",
       "startRecognizeButtonEnglish",
       "soundWave"
     );
+
+    document.getElementsByName("language")[0].checked = true;
   }
 
   render() {
