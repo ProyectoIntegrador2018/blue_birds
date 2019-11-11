@@ -13,7 +13,14 @@ class App extends React.Component {
     this.state = {
       processor: new ProcessMessage()
     };
-    this.messageList = [];
+    this.messageList = [
+      {
+        key: 0,
+        is_receiver: true,
+        message:
+          "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar Orden'"
+      }
+    ];
 
     this.sendMessage = this.sendMessage.bind(this);
   }
