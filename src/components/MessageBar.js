@@ -27,7 +27,7 @@ export default class MessageBar extends React.Component {
               <div className="input-group-prepend">
                 <LanguagePicker />
               </div>
-              <div className="input-group-append" id="button-addon4">
+              <div className="input-group-prepend" id="operator-btn">
                 <Operator onClickOperator={this.props.onClickOperator} />
               </div>
               <input type="text" className="form-control" placeholder="" id="phraseInput" />
