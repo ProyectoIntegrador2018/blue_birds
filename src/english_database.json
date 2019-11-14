@@ -1,0 +1,1245 @@
+"McDonald's": {
+	"Hamburger": 140,
+	"Tacos": 140,
+	"Chicken Parmigana": 70
+}
+"Starbucks": {
+	"Parma Ham": 140,
+	"Barbecue": 80,
+	"Texas Barbeque Pork": 120
+}
+"Subway": {
+	"Sandwich": 160,
+	"Masala Dosa": 70,
+	"Egg Tarts": 80
+}
+"Taco Bell": {
+	"Penang Assam Laksa": 70,
+	"Ohmi-Gyu Beef Steak": 90,
+	"Tacoss": 140
+}
+"Chick-fil-A": {
+	"Croissant": 160,
+	"Hamburger": 80,
+	"French Toast": 80
+}
+"Wendy's": {
+	"Marzipan": 70,
+	"Brownie and Vanilla Ice Cream": 90,
+	"Hamburger": 80
+}
+"Dunkin": {
+	"Montreal Smoked Meat": 90,
+	"French Toast": 100,
+	"Barbecue": 120
+}
+"Domino's": {
+	"Lasagna": 80,
+	"Barbecue": 100,
+	"Pancakes With Maple Syrup": 70
+}
+"Panera Bread": {
+	"Fish and Chips": 100,
+	"Pancakes With Maple Syrup": 70,
+	"Buttered Popcorn": 100
+}
+"Pizza Hut": {
+	"Goi Cuon": 100,
+	"Kebab": 100,
+	"Brownie and Vanilla Ice Cream": 120
+}
+"Chipotle Mexican Grill": {
+	"Taco": 70,
+	"Neapolitan Pizza": 160,
+	"Eggs Benedict": 70
+}
+"Sonic Drive-In": {
+	"Egg Tarts": 100,
+	"Lobster": 100,
+	"Funnel Cake": 100
+}
+"KFC": {
+	"Penang Assam Laksa": 120,
+	"French Toast": 80,
+	"Montreal Smoked Meat": 120
+}
+"Applebee": {
+	"Neapolitan Pizza": 160,
+	"Egg Tarts": 120,
+	"Chili Crab": 70
+}
+"Olive Garden": {
+	"Buttered Popcorn": 100,
+	"Pancakes With Maple Syrup": 90,
+	"Stinky Tofu": 120
+}
+"Arby's": {
+	"Maple Syrup": 80,
+	"Buttered Popcorn": 90,
+	"Chicken Rice": 140
+}
+"Little Caesars": {
+	"Lobster": 70,
+	"Eggs Benedict": 140,
+	"Lasagna": 90
+}
+"Buffalo Wild Wings": {
+	"Buttered Popcorn": 90,
+	"French Toast": 100,
+	"Montreal Smoked Meat": 160
+}
+"Dairy Queen": {
+	"Fajitas": 70,
+	"Neapolitan Pizza": 100,
+	"Neapolitan Pizza": 140
+}
+"Panda Express": {
+	"Boiled Peanuts": 160,
+	"Lobster": 80,
+	"Masala Dosa": 100
+}
+"Chili's Grill & Bar": {
+	"Tacos": 90,
+	"Potato Chips": 80,
+	"Penang Assam Laksa": 140
+}
+"Jack in the Box": {
+	"Mashed Potatoes": 120,
+	"Penang Assam Laksa": 70,
+	"Buttered Toast With Marmite": 140
+}
+"IHOP": {
+	"Chicken Muamba": 90,
+	"Montreal Smoked Meat": 160,
+	"Brownie and Vanilla Ice Cream": 120
+}
+"Popeyes Louisiana Kitchen": {
+	"Chicken Muamba": 140,
+	"Parma Ham": 160,
+	"Buttered Popcorn": 140
+}
+"Texas Roadhouse": {
+	"Seafood Paella": 140,
+	"Fajitas": 160,
+	"Chocolate": 100
+}
+"Papa John": {
+	"Kebab": 80,
+	"Chicken Muamba": 160,
+	"Chicken Parmigana": 70
+}
+"Denny's": {
+	"Croissant": 90,
+	"Funnel Cake": 140,
+	"Lobster": 100
+}
+"Outback Steakhouse": {
+	"Persimmon Pudding": 70,
+	"Buttered Popcorn": 140,
+	"Ohmi-Gyu Beef Steak": 70
+}
+"Cracker Barrel": {
+	"Hamburger": 80,
+	"Egg Tarts": 70,
+	"Masala Dosa": 100
+}
+"Whataburger": {
+	"Funnel Cake": 100,
+	"Sushi": 70,
+	"Chicken Parmigana": 70
+}
+"Red Lobster": {
+	"Montreal Smoked Meat": 160,
+	"Buttered Toast With Marmite": 80,
+	"Egg Tarts": 70
+}
+"Jimmy John's Gourmet Sandwiches": {
+	"Chocolate": 70,
+	"Lobster": 140,
+	"Funnel Cake": 140
+}
+"The Cheesecake Factory": {
+	"Persimmon Pudding": 140,
+	"Potato Chips": 90,
+	"Som Tam": 100
+}
+"Hardee's": {
+	"Som Tam": 120,
+	"Marzipan": 160,
+	"Lobster": 140
+}
+"Zaxby's": {
+	"Croissant": 90,
+	"Arepas": 120,
+	"Montreal Smoked Meat": 140
+}
+"LongHorn Steakhouse": {
+	"Chicken Rice": 140,
+	"Croissant": 120,
+	"Seafood Paella": 80
+}
+"Golden Corral": {
+	"Lasagna": 160,
+	"Funnel Cake": 100,
+	"Fish and Chips": 140
+}
+"Five Guys Burgers and Fries": {
+	"Tacos": 140,
+	"Donuts": 90,
+	"Kebab": 120
+}
+"Culver's": {
+	"Egg Tarts": 120,
+	"Chili Crab": 80,
+	"Parma Ham": 140
+}
+"Red Robin Gourmet Burgers and Brews": {
+	"Goi Cuon": 160,
+	"Som Tam": 160,
+	"Boiled Peanuts": 160
+}
+"Carl's Jr": {
+	"Hamburger": 100,
+	"French Fries": 160,
+	"Ankimo": 140
+}
+"Waffle House": {
+	"Persimmon Pudding": 160,
+	"Goi Cuon": 100,
+	"Egg Tarts": 160
+}
+"Bojangles": {
+	"Parma Ham": 120,
+	"Pancakes With Maple Syrup": 80,
+	"Potato Chips": 90
+}
+"Wingstop": {
+	"Lobster": 70,
+	"Lasagna": 100,
+	"Chocolate": 90
+}
+"Raising Cane's Chicken Fingers": {
+	"Mashed Potatoes": 120,
+	"Ohmi-Gyu Beef Steak": 160,
+	"Kebab": 90
+}
+"TGI Fridays": {
+	"Parma Ham": 100,
+	"Lobster": 90,
+	"Buttered Popcorn": 70
+}
+"Jersey Mike's Subs": {
+	"Fish and Chips": 100,
+	"Fish and Chips": 70,
+	"Barbecue": 90
+}
+"BJ's Restaurant & Brewhouse": {
+	"Chicken Rice": 90,
+	"Funnel Cake": 160,
+	"Donuts": 80
+}
+"Steak 'n Shake": {
+	"Funnel Cake": 140,
+	"Fajitas": 100,
+	"Lobster": 90
+}
+"In-N-Out Burger": {
+	"Chili Crab": 70,
+	"Burger": 100,
+	"Som Tam": 70
+}
+"P.F. Chang's": {
+	"Potato Chips": 120,
+	"Tacos": 140,
+	"Poutine": 120
+}
+"El Pollo Loco": {
+	"Buttered Popcorn": 80,
+	"Chicken": 160,
+	"Egg Tarts": 120
+}
+"Bob Evans": {
+	"Marzipan": 160,
+	"Marzipan": 90,
+	"Brownie and Vanilla Ice Cream": 80
+}
+"Qdoba Mexican Eats": {
+	"Chicken Rice": 90,
+	"Chicken Parmigana": 70,
+	"Chicken Parmigana": 100
+}
+"Del Taco": {
+	"Arepas": 160,
+	"Tacos": 90,
+	"Egg Tarts": 70
+}
+"Krispy Kreme": {
+	"Texas Barbeque Pork": 120,
+	"Donuts": 120,
+	"Fajitas": 140
+}
+"Hooters": {
+	"Poutine": 140,
+	"Parma Ham": 160,
+	"Arepas": 160
+}
+"Papa Murphy's Pizza": {
+	"Chocolate": 160,
+	"Fish and Chips": 120,
+	"Pizza": 140
+}
+"Firehouse Subs": {
+	"Neapolitan Pizza": 160,
+	"Chicken Parmigana": 70,
+	"Som Tam": 160
+}
+"Tim Hortons": {
+	"Pancakes With Maple Syrup": 160,
+	"Som Tam": 120,
+	"Ankimo": 100
+}
+"Ruth's Chris Steak House": {
+	"Lobster": 80,
+	"Eggs Benedict": 100,
+	"Persimmon Pudding": 90
+}
+"Church's Chicken": {
+	"Pancakes With Maple Syrup": 120,
+	"Croissant": 120,
+	"Croissant": 70
+}
+"Moe's Southwest Grill": {
+	"Ankimo": 160,
+	"Ankimo": 100,
+	"Kebab": 100
+}
+"Cheddar's Scratch Kitchen": {
+	"Seafood Paella": 120,
+	"Fajitas": 100,
+	"Stinky Tofu": 100
+}
+"Jason's Deli": {
+	"Marzipan": 160,
+	"Chili Crab": 140,
+	"Tacos": 100
+}
+"Ruby Tuesday": {
+	"Lobster": 80,
+	"Montreal Smoked Meat": 80,
+	"Arepas": 70
+}
+"McAlister's Deli": {
+	"Marzipan": 100,
+	"Penang Assam Laksa": 140,
+	"Buttered Toast With Marmite": 100
+}
+"Carrabba's Italian Grill": {
+	"Stinky Tofu": 100,
+	"Masala Dosa": 70,
+	"Kebab": 160
+}
+"California Pizza Kitchen": {
+	"Hamburger": 120,
+	"Buttered Popcorn": 70,
+	"Buttered Popcorn": 100
+}
+"Baskin-Robbins": {
+	"Ankimo": 140,
+	"Maple Syrup": 90,
+	"Eggs Benedict": 120
+}
+"Perkins Restaurant & Bakery": {
+	"Stinky Tofu": 80,
+	"Kebab": 120,
+	"Ohmi-Gyu Beef Steak": 80
+}
+"Marco's Pizza": {
+	"Chicken Muamba": 90,
+	"Fish and Chips": 140,
+	"Marzipan": 70
+}
+"Bonefish Grill": {
+	"Mashed Potatoes": 80,
+	"Shepherd's Pie": 70,
+	"Croissant": 70
+}
+"Yard House": {
+	"Ankimo": 140,
+	"French Toast": 120,
+	"Hamburger": 70
+}
+"Checkers Drive-In Restaurants": {
+	"Donuts": 90,
+	"Pancakes With Maple Syrup": 100,
+	"Chicken Parmigana": 160
+}
+"Auntie Anne's": {
+	"Sushi": 90,
+	"Boiled Peanuts": 140,
+	"Egg Tarts": 70
+}
+"Boston Market": {
+	"Chicken Muamba": 70,
+	"Hamburger": 70,
+	"Texas Barbeque Pork": 140
+}
+"Captain D's Seafood Kitchen": {
+	"Croissant": 100,
+	"Barbecue": 80,
+	"Masala Dosa": 120
+}
+"White Castle": {
+	"Som Tam": 80,
+	"Penang Assam Laksa": 160,
+	"Lobster": 100
+}
+"Dave & Buster's": {
+	"Penang Assam Laksa": 90,
+	"Egg Tarts": 160,
+	"Buttered Toast With Marmite": 90
+}
+"Noodles & Co.": {
+	"Barbecue": 160,
+	"Penang Assam Laksa": 120,
+	"Poutine": 140
+}
+"Logan's Roadhouse": {
+	"Potato Chips": 100,
+	"Ohmi-Gyu Beef Steak": 120,
+	"Fajitas": 90
+}
+"Einstein Bros. Bagels": {
+	"Fish and Chips": 140,
+	"Tacos": 140,
+	"Som Tam": 90
+}
+"Dutch Bros. Coffee": {
+	"Donuts": 160,
+	"Masala Dosa": 120,
+	"Mashed Potatoes": 100
+}
+"Jamba Juice": {
+	"Chicken Parmigana": 120,
+	"Chocolate": 80,
+	"Neapolitan Pizza": 120
+}
+"Freddy's Frozen Custard & Steakburgers": {
+	"Fajitas": 140,
+	"Ankimo": 70,
+	"Penang Assam Laksa": 160
+}
+"Tropical Smoothie Cafe": {
+	"Neapolitan Pizza": 160,
+	"Montreal Smoked Meat": 160,
+	"Texas Barbeque Pork": 160
+}
+"O'Charley's": {
+	"Ohmi-Gyu Beef Steak": 140,
+	"Lobster": 80,
+	"Fajitas": 140
+}
+"Shake Shack": {
+	"Egg Tarts": 100,
+	"Mashed Potatoes": 160,
+	"Maple Syrup": 100
+}
+"Potbelly Sandwich Shop": {
+	"Som Tam": 70,
+	"Masala Dosa": 140,
+	"Egg Tarts": 140
+}
+"The Capital Grille": {
+	"Chicken Muamba": 160,
+	"Som Tam": 80,
+	"Chocolate": 80
+}
+"Long John Silver's": {
+	"Tacos": 90,
+	"Texas Barbeque Pork": 90,
+	"Chicken Rice": 140
+}
+"The Habit Burger Grill": {
+	"Buttered Popcorn": 70,
+	"Montreal Smoked Meat": 80,
+	"Chicken Muamba": 100
+}
+"Round Table Pizza": {
+	"Lobster": 80,
+	"Goi Cuon": 70,
+	"Barbecue": 80
+}
+"Mellow Mushroom": {
+	"Stinky Tofu": 160,
+	"Poutine": 90,
+	"Lobster": 160
+}
+"Smoothie King": {
+	"Donuts": 70,
+	"Sushi": 120,
+	"Parma Ham": 90
+}
+"Miller's Ale House": {
+	"Hamburger": 90,
+	"Fish and Chips": 70,
+	"Fish and Chips": 100
+}
+"Maggiano's Little Italy": {
+	"Kebab": 100,
+	"Shepherd's Pie": 100,
+	"Arepas": 80
+}
+"First Watch": {
+	"Parma Ham": 100,
+	"Potato Chips": 120,
+	"Chicken Parmigana": 90
+}
+"Hungry Howie's Pizza": {
+	"Chicken Rice": 120,
+	"Persimmon Pudding": 160,
+	"Chocolate": 70
+}
+"Dickey's Barbecue Pit": {
+	"Barbecue": 140,
+	"Texas Barbeque Pork": 140,
+	"Seafood Paella": 100
+}
+"Charleys Philly Steaks": {
+	"Chocolate": 120,
+	"Lobster": 90,
+	"Donuts": 80
+}
+"Chuy's": {
+	"Sushi": 80,
+	"Tacos": 90,
+	"Seafood Paella": 70
+}
+"MOD Pizza": {
+	"Masala Dosa": 70,
+	"Penang Assam Laksa": 80,
+	"Tacos": 100
+}
+"Chuck E. Cheese's": {
+	"Buttered Toast With Marmite": 120,
+	"Maple Syrup": 90,
+	"Goi Cuon": 80
+}
+"Portillo's": {
+	"Fajitas": 100,
+	"Lobster": 140,
+	"Kebab": 120
+}
+"Pollo Tropical": {
+	"Egg Tarts": 120,
+	"Eggs Benedict": 90,
+	"Eggs Benedict": 70
+}
+"Krystal Company": {
+	"French Toast": 90,
+	"Buttered Toast With Marmite": 120,
+	"Montreal Smoked Meat": 140
+}
+"Cold Stone Creamery": {
+	"Chicken Rice": 140,
+	"Masala Dosa": 100,
+	"Poutine": 120
+}
+"Zoes Kitchen": {
+	"Seafood Paella": 140,
+	"Ohmi-Gyu Beef Steak": 90,
+	"Ohmi-Gyu Beef Steak": 80
+}
+"Taco John's": {
+	"Chocolate": 120,
+	"Chicken Muamba": 100,
+	"Ohmi-Gyu Beef Steak": 120
+}
+"Pappadeaux Seafood Kitchen": {
+	"Persimmon Pudding": 100,
+	"Stinky Tofu": 80,
+	"Lasagna": 160
+}
+"Corner Bakery Cafe": {
+	"Texas Barbeque Pork": 140,
+	"Chili Crab": 90,
+	"French Toast": 140
+}
+"Famous Dave's": {
+	"Sushi": 90,
+	"Lasagna": 70,
+	"Potato Chips": 80
+}
+"Jet's Pizza": {
+	"Kebab": 100,
+	"Boiled Peanuts": 90,
+	"French Toast": 100
+}
+"Schlotzsky's": {
+	"Texas Barbeque Pork": 90,
+	"Lobster": 80,
+	"Parma Ham": 90
+}
+"Cicis": {
+	"Croissant": 100,
+	"Chili Crab": 160,
+	"Goi Cuon": 80
+}
+"Saltgrass Steak House": {
+	"Boiled Peanuts": 140,
+	"Pancakes With Maple Syrup": 80,
+	"Marzipan": 140
+}
+"On The Border Mexican Grill & Cantina": {
+	"Fajitas": 160,
+	"Tacos": 90,
+	"Eggs Benedict": 140
+}
+"Village Inn": {
+	"Penang Assam Laksa": 120,
+	"Ohmi-Gyu Beef Steak": 70,
+	"Tacos": 70
+}
+"Twin Peaks": {
+	"Poutine": 140,
+	"Egg Tarts": 160,
+	"Mashed Potatoes": 80
+}
+"Au Bon Pain": {
+	"Croissant": 120,
+	"Fish and Chips": 140,
+	"Texas Barbeque Pork": 70
+}
+"Texas de Brazil Churrascaria": {
+	"Kebab": 80,
+	"Lasagna": 140,
+	"Lasagna": 140
+}
+"Blaze Pizza": {
+	"Tacos": 90,
+	"Chicken Rice": 120,
+	"Seafood Paella": 70
+}
+"Taco Cabana": {
+	"Chocolate": 120,
+	"Potato Chips": 140,
+	"Chili Crab": 70
+}
+"Bar Louie": {
+	"Lasagna": 80,
+	"Maple Syrup": 100,
+	"Pancakes With Maple Syrup": 100
+}
+"Pei Wei Asian Diner": {
+	"Chocolate": 100,
+	"Tacos": 70,
+	"Fish and Chips": 70
+}
+"Ninety Nine Restaurants": {
+	"Lobster": 90,
+	"Ankimo": 90,
+	"Neapolitan Pizza": 140
+}
+"Fleming's Prime Steakhouse & Wine Bar": {
+	"Boiled Peanuts": 140,
+	"Hamburger": 140,
+	"Stinky Tofu": 160
+}
+"Benihana": {
+	"Tacos": 160,
+	"Som Tam": 80,
+	"Lobster": 160
+}
+"Fogo de Chao": {
+	"Shepherd's Pie": 120,
+	"Funnel Cake": 120,
+	"Sushi": 100
+}
+"Smashburger": {
+	"Marzipan": 120,
+	"Stinky Tofu": 80,
+	"Ankimo": 160
+}
+"Black Bear Diner": {
+	"Buttered Toast With Marmite": 100,
+	"Croissant": 100,
+	"Stinky Tofu": 160
+}
+"Rally's Hamburgers": {
+	"Sushi": 120,
+	"Barbecue": 120,
+	"Funnel Cake": 160
+}
+"Caribou Coffee": {
+	"Mashed Potatoes": 80,
+	"Montreal Smoked Meat": 90,
+	"Ankimo": 160
+}
+"Cooper's Hawk Winery & Restaurants": {
+	"Egg Tarts": 100,
+	"Chicken Rice": 100,
+	"Poutine": 100
+}
+"Peet's Coffee & Tea": {
+	"Sushi": 120,
+	"Seafood Paella": 70,
+	"Shepherd's Pie": 80
+}
+"Big Boy/Frisch's Big Boy": {
+	"Kebab": 140,
+	"Parma Ham": 100,
+	"Stinky Tofu": 80
+}
+"Sarku Japan": {
+	"Barbecue": 90,
+	"Texas Barbeque Pork": 100,
+	"Tacos": 140
+}
+"Sizzler": {
+	"Arepas": 120,
+	"Masala Dosa": 120,
+	"Chicken Parmigana": 80
+}
+"Bill Miller Bar-B-Q": {
+	"Ohmi-Gyu Beef Steak": 120,
+	"Eggs Benedict": 90,
+	"Barbecue": 160
+}
+"Old Chicago Pizza & Taproom": {
+	"Marzipan": 80,
+	"Fish and Chips": 140,
+	"Seafood Paella": 80
+}
+"Wienerschnitzel": {
+	"Potato Chips": 80,
+	"Sushi": 90,
+	"Egg Tarts": 120
+}
+"Pizza Ranch": {
+	"Shepherd's Pie": 90,
+	"Funnel Cake": 80,
+	"Lasagna": 120
+}
+"Seasons 52": {
+	"Buttered Popcorn": 120,
+	"Persimmon Pudding": 90,
+	"Croissant": 80
+}
+"Friendly's": {
+	"Masala Dosa": 70,
+	"Fish and Chips": 90,
+	"Boiled Peanuts": 100
+}
+"Braum's Ice Cream & Dairy Stores": {
+	"Goi Cuon": 70,
+	"Donuts": 100,
+	"Croissant": 120
+}
+"Morton's The Steakhouse": {
+	"Fish and Chips": 160,
+	"Chicken Muamba": 70,
+	"Potato Chips": 140
+}
+"Huddle House": {
+	"Stinky Tofu": 90,
+	"Fajitas": 90,
+	"Shepherd's Pie": 80
+}
+"Legal Sea Foods": {
+	"Seafood Paella": 90,
+	"Ohmi-Gyu Beef Steak": 120,
+	"Chili Crab": 100
+}
+"Pret a Manger": {
+	"Potato Chips": 160,
+	"Barbecue": 80,
+	"Penang Assam Laksa": 80
+}
+"Godfather's Pizza": {
+	"Buttered Popcorn": 70,
+	"Hamburger": 160,
+	"Hamburger": 120
+}
+"Bahama Breeze Island Grille": {
+	"Marzipan": 140,
+	"Masala Dosa": 120,
+	"Sushi": 120
+}
+"Sbarro": {
+	"Eggs Benedict": 140,
+	"Hamburger": 160,
+	"Sushi": 80
+}
+"Cafe Rio Mexican Grill": {
+	"Parma Ham": 160,
+	"Neapolitan Pizza": 90,
+	"Chili Crab": 100
+}
+"Rubio's": {
+	"Buttered Popcorn": 140,
+	"Masala Dosa": 120,
+	"Chili Crab": 90
+}
+"Fazoli's": {
+	"Mashed Potatoes": 100,
+	"Parma Ham": 140,
+	"Fish and Chips": 160
+}
+"Mastro's Restaurants": {
+	"Montreal Smoked Meat": 70,
+	"Shepherd's Pie": 160,
+	"Brownie and Vanilla Ice Cream": 160
+}
+"Romano's Macaroni Grill": {
+	"Som Tam": 160,
+	"Ankimo": 80,
+	"Ohmi-Gyu Beef Steak": 100
+}
+"Newk's Eatery": {
+	"Shepherd's Pie": 70,
+	"Shepherd's Pie": 140,
+	"Lobster": 140
+}
+"Brio Tuscan Grille": {
+	"Som Tam": 80,
+	"Lasagna": 90,
+	"Neapolitan Pizza": 140
+}
+"A&W All-American Food": {
+	"Arepas": 100,
+	"Fajitas": 140,
+	"Mashed Potatoes": 140
+}
+"Which Wich": {
+	"Croissant": 80,
+	"Stinky Tofu": 140,
+	"Masala Dosa": 100
+}
+"Fuzzy's Taco Shop": {
+	"Texas Barbeque Pork": 120,
+	"Texas Barbeque Pork": 80,
+	"Masala Dosa": 70
+}
+"Uncle Julio's": {
+	"Fajitas": 100,
+	"Boiled Peanuts": 120,
+	"Stinky Tofu": 160
+}
+"Torchy's Tacos": {
+	"Chicken Muamba": 160,
+	"Marzipan": 100,
+	"Chocolate": 80
+}
+"Beef 'O Brady's": {
+	"Chocolate": 100,
+	"Goi Cuon": 100,
+	"Lobster": 160
+}
+"Hard Rock Cafe": {
+	"Ankimo": 120,
+	"Fish and Chips": 120,
+	"Fajitas": 70
+}
+"Souplantation & Sweet Tomatoes": {
+	"Shepherd's Pie": 160,
+	"Donuts": 90,
+	"Penang Assam Laksa": 160
+}
+"Luby's": {
+	"Seafood Paella": 90,
+	"Hamburger": 80,
+	"Chicken Muamba": 160
+}
+"Sonny's BBQ": {
+	"Neapolitan Pizza": 90,
+	"French Toast": 70,
+	"Penang Assam Laksa": 140
+}
+"Uno Pizzeria & Grill": {
+	"Neapolitan Pizza": 100,
+	"Shepherd's Pie": 80,
+	"Buttered Popcorn": 80
+}
+"Johnny Rockets": {
+	"Texas Barbeque Pork": 100,
+	"Hamburger": 120,
+	"Pancakes With Maple Syrup": 70
+}
+"Penn Station East Coast Subs": {
+	"Buttered Toast With Marmite": 90,
+	"Chili Crab": 140,
+	"Barbecue": 140
+}
+"Claim Jumper": {
+	"Neapolitan Pizza": 80,
+	"Tacos": 140,
+	"Ohmi-Gyu Beef Steak": 160
+}
+"Fuddruckers": {
+	"Kebab": 80,
+	"Lasagna": 160,
+	"Chicken Parmigana": 70
+}
+"Cinnabon": {
+	"Shepherd's Pie": 80,
+	"Ankimo": 140,
+	"Croissant": 160
+}
+"Buca di Beppo": {
+	"Chicken Rice": 80,
+	"Tacos": 140,
+	"Sushi": 90
+}
+"Shoney's": {
+	"Masala Dosa": 70,
+	"Chicken Muamba": 120,
+	"Penang Assam Laksa": 80
+}
+"Bubba Gump Shrimp Co.": {
+	"Montreal Smoked Meat": 100,
+	"Buttered Popcorn": 90,
+	"Brownie and Vanilla Ice Cream": 160
+}
+"Del Frisco's Double Eagle Steak House": {
+	"Seafood Paella": 70,
+	"Donuts": 80,
+	"Texas Barbeque Pork": 140
+}
+"Mimi's Cafe": {
+	"Masala Dosa": 90,
+	"Fajitas": 140,
+	"Montreal Smoked Meat": 70
+}
+"Houlihan's": {
+	"Texas Barbeque Pork": 140,
+	"Fish and Chips": 70,
+	"Barbecue": 100
+}
+"J. Alexander's": {
+	"Chicken Rice": 80,
+	"Stinky Tofu": 160,
+	"Hamburger": 120
+}
+"Joe's Crab Shack": {
+	"Funnel Cake": 70,
+	"Fajitas": 120,
+	"Shepherd's Pie": 80
+}
+"McCormick & Schmick's": {
+	"Kebab": 100,
+	"Eggs Benedict": 120,
+	"Lobster": 160
+}
+"Firebirds Wood Fired Grill": {
+	"Brownie and Vanilla Ice Cream": 100,
+	"Hamburger": 100,
+	"Goi Cuon": 160
+}
+"Donatos Pizza": {
+	"Funnel Cake": 120,
+	"Ankimo": 90,
+	"Tacos": 90
+}
+"Lazy Dog Restaurant & Bar": {
+	"Chicken Rice": 70,
+	"Barbecue": 120,
+	"Brownie and Vanilla Ice Cream": 140
+}
+"Old Country Buffet/HomeTown Buffet": {
+	"Boiled Peanuts": 140,
+	"Eggs Benedict": 100,
+	"Maple Syrup": 140
+}
+"Pappasito's Cantina": {
+	"Tacos": 120,
+	"Croissant": 90,
+	"Goi Cuon": 90
+}
+"The Melting Pot": {
+	"Chili Crab": 100,
+	"Egg Tarts": 80,
+	"Funnel Cake": 100
+}
+"Le Pain Quotidien": {
+	"Lobster": 80,
+	"Som Tam": 160,
+	"Seafood Paella": 160
+}
+"Golden Chick": {
+	"Chocolate": 90,
+	"Egg Tarts": 160,
+	"Barbecue": 70
+}
+"Islands Fine Burgers & Drinks": {
+	"Lasagna": 80,
+	"Goi Cuon": 120,
+	"Chocolate": 160
+}
+"La Madeleine Country French Cafe": {
+	"Buttered Popcorn": 120,
+	"Lasagna": 70,
+	"Lasagna": 100
+}
+"Wetzel's Pretzels": {
+	"Croissant": 160,
+	"Hamburger": 160,
+	"French Toast": 160
+}
+"Great Harvest Bread Co.": {
+	"Donuts": 100,
+	"Poutine": 100,
+	"Chicken Rice": 100
+}
+"Smokey Bones Bar & Fire Grill": {
+	"Goi Cuon": 140,
+	"Kebab": 160,
+	"Brownie and Vanilla Ice Cream": 70
+}
+"Taco Bueno": {
+	"Brownie and Vanilla Ice Cream": 100,
+	"Mashed Potatoes": 70,
+	"Texas Barbeque Pork": 140
+}
+"The Original Pancake House": {
+	"Ohmi-Gyu Beef Steak": 160,
+	"Barbecue": 80,
+	"French Toast": 80
+}
+"True Food Kitchen": {
+	"Mashed Potatoes": 100,
+	"Goi Cuon": 120,
+	"Sushi": 160
+}
+"Mountain Mike's Pizza": {
+	"Donuts": 160,
+	"Chocolate": 140,
+	"Seafood Paella": 70
+}
+"Jack's": {
+	"Goi Cuon": 100,
+	"Sushi": 80,
+	"Kebab": 80
+}
+"Lucille's Smokehouse Bar-B-Que": {
+	"Funnel Cake": 120,
+	"Texas Barbeque Pork": 70,
+	"Hamburger": 70
+}
+"Eat'n Park": {
+	"Buttered Popcorn": 120,
+	"Arepas": 100,
+	"Chili Crab": 90
+}
+"The Coffee Bean & Tea Leaf": {
+	"Goi Cuon": 80,
+	"French Toast": 90,
+	"Montreal Smoked Meat": 80
+}
+"Kona Grill": {
+	"Ankimo": 140,
+	"Donuts": 160,
+	"Masala Dosa": 90
+}
+"LaRosa's Pizzeria": {
+	"Barbecue": 70,
+	"Ankimo": 140,
+	"Seafood Paella": 80
+}
+"Sweetgreen": {
+	"Pancakes With Maple Syrup": 160,
+	"Fish and Chips": 100,
+	"Donuts": 100
+}
+"Menchie's Frozen Yogurt": {
+	"Egg Tarts": 90,
+	"Goi Cuon": 80,
+	"Buttered Popcorn": 120
+}
+"Anthony's Coal Fired Pizza": {
+	"Croissant": 120,
+	"Penang Assam Laksa": 140,
+	"Seafood Paella": 140
+}
+"Bruegger's Bagels": {
+	"Shepherd's Pie": 140,
+	"Funnel Cake": 100,
+	"Fish and Chips": 140
+}
+"Farmer Boys": {
+	"Hamburger": 90,
+	"Kebab": 80,
+	"Funnel Cake": 90
+}
+"Roosters": {
+	"Persimmon Pudding": 140,
+	"Brownie and Vanilla Ice Cream": 80,
+	"Chili Crab": 140
+}
+"Hurricane Grill & Wings": {
+	"Barbecue": 160,
+	"Chicken Parmigana": 80,
+	"Masala Dosa": 140
+}
+"Giordano's": {
+	"Brownie and Vanilla Ice Cream": 90,
+	"Fish and Chips": 90,
+	"Chicken Muamba": 120
+}
+"The Old Spaghetti Factory": {
+	"Donuts": 120,
+	"Persimmon Pudding": 160,
+	"Neapolitan Pizza": 80
+}
+"Grand Lux Cafe": {
+	"Ankimo": 160,
+	"Chicken Rice": 90,
+	"Eggs Benedict": 120
+}
+"Wayback Burgers": {
+	"Ankimo": 160,
+	"Lobster": 70,
+	"Hamburger": 160
+}
+"Rainforest Cafe": {
+	"Egg Tarts": 80,
+	"Texas Barbeque Pork": 160,
+	"Buttered Toast With Marmite": 120
+}
+"PDQ": {
+	"Chocolate": 90,
+	"Chicken Rice": 90,
+	"Mashed Potatoes": 120
+}
+"Pizza Pro": {
+	"Arepas": 100,
+	"Pancakes With Maple Syrup": 90,
+	"Lasagna": 80
+}
+"Pollo Campero": {
+	"French Toast": 70,
+	"Ohmi-Gyu Beef Steak": 140,
+	"Donuts": 140
+}
+"Duffy's Sports Grill": {
+	"Arepas": 70,
+	"Penang Assam Laksa": 100,
+	"Buttered Popcorn": 140
+}
+"Tijuana Flats": {
+	"Texas Barbeque Pork": 160,
+	"Brownie and Vanilla Ice Cream": 90,
+	"Mashed Potatoes": 120
+}
+"Black Angus Steakhouse": {
+	"Potato Chips": 140,
+	"Kebab": 100,
+	"Shepherd's Pie": 140
+}
+"Quiznos": {
+	"Sushi": 140,
+	"Chicken Parmigana": 160,
+	"Potato Chips": 80
+}
+"Shari's Cafe and Pies": {
+	"Brownie and Vanilla Ice Cream": 100,
+	"Chicken Muamba": 80,
+	"Masala Dosa": 80
+}
+"Biggby Coffee": {
+	"Potato Chips": 90,
+	"Tacos": 90,
+	"Maple Syrup": 140
+}
+"Rosati's Pizza": {
+	"Donuts": 100,
+	"Montreal Smoked Meat": 160,
+	"Poutine": 80
+}
+"Bertucci's": {
+	"Potato Chips": 120,
+	"Barbecue": 160,
+	"Texas Barbeque Pork": 140
+}
+"Yogurtland": {
+	"Brownie and Vanilla Ice Cream": 90,
+	"Brownie and Vanilla Ice Cream": 140,
+	"Fish and Chips": 140
+}
+"BurgerFi": {
+	"Chocolate": 160,
+	"Ohmi-Gyu Beef Steak": 120,
+	"Chicken Muamba": 120
+}
+"Lee's Famous Recipe Chicken": {
+	"Croissant": 70,
+	"Stinky Tofu": 80,
+	"Hamburger": 70
+}
+"Eddie V's Prime Seafood": {
+	"Buttered Toast With Marmite": 160,
+	"Masala Dosa": 90,
+	"Funnel Cake": 140
+}
+"Great American Cookies": {
+	"Seafood Paella": 140,
+	"Potato Chips": 70,
+	"Croissant": 120
+}
+"Bravo! Cucina Italiana": {
+	"Buttered Popcorn": 90,
+	"Hamburger": 70,
+	"Arepas": 120
+}
+"Baja Fresh Mexican Grill": {
+	"Buttered Popcorn": 100,
+	"Boiled Peanuts": 120,
+	"Brownie and Vanilla Ice Cream": 160
+}
+"Slim Chickens": {
+	"Hamburger": 160,
+	"Parma Ham": 90,
+	"Chicken Parmigana": 160
+}
+"The Brass Tap": {
+	"Buttered Popcorn": 100,
+	"Parma Ham": 140,
+	"Chicken Rice": 160
+}
+"WaBa Grill": {
+	"Donuts": 70,
+	"Brownie and Vanilla Ice Cream": 100,
+	"Kebab": 140
+}
+"STK": {
+	"Montreal Smoked Meat": 100,
+	"Egg Tarts": 160,
+	"Chili Crab": 140
+}
+"54th Street Restaurant & Drafthouse": {
+	"Penang Assam Laksa": 90,
+	"Buttered Popcorn": 140,
+	"Montreal Smoked Meat": 120
+}
+"Metro Diner": {
+	"Chicken Rice": 120,
+	"Tacos": 80,
+	"Poutine": 100
+}
+"Freebirds World Burrito": {
+	"Boiled Peanuts": 70,
+	"Neapolitan Pizza": 80,
+	"Buttered Popcorn": 100
+}
+"Togo's Sandwiches": {
+	"Parma Ham": 80,
+	"Brownie and Vanilla Ice Cream": 70,
+	"Maple Syrup": 100
+}
+"Costa Vida Fresh Mexican Grill": {
+	"Croissant": 140,
+	"Chili Crab": 90,
+	"Tacos": 80
+}
+"L&L Hawaiian Barbecue": {
+	"Texas Barbeque Pork": 140,
+	"Persimmon Pudding": 80,
+	"Salad": 90
+}
