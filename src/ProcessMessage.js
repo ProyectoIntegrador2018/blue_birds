@@ -35,6 +35,44 @@ export default class ProcessMessage {
     }
   };
 
+  pushRestaurants(dataBase, message) {
+    for (const restaurant in dataBase) {
+      if (message.includes(restaurant)) {
+        this.restaurants.push(restaurant);
+      }
+    }
+  }
+
+  sortOrder() {
+    this.order.sort((a, b) =>
+      a.restaurant > b.restaurant ? 1 : b.restaurant > a.restaurant ? -1 : 0
+    );
+  }
+
+  wordIndexOf(wordArray, food) {
+    return wordArray.indexOf(food) > -1
+      ? wordArray.indexOf(food)
+      : wordArray.indexOf(food + "s");
+  }
+
+  orderString(language) {
+    var total = 0;
+    var orderStr = "";
+    this.order.forEach((order, index) => {
+      if (language === "spanish") {
+        orderStr += `${index + 1}) Restaurante: ${order.restaurant} Cantidad: ${
+          order.quantity
+        } Platillo: ${order.food} Precio: $${order.price} `;
+      } else {
+        orderStr += `${index + 1}) Restaurant: ${order.restaurant} Quantity: ${
+          order.quantity
+        } Food: ${order.food} Price: $${order.price} `;
+      }
+      total += order.price;
+    });
+    return { orderStr, total };
+  }
+
   matchSpanish(message) {
     if (this.stackMessages.length > 0) {
       var pastMessage = this.stackMessages.pop();
@@ -48,11 +86,7 @@ export default class ProcessMessage {
     }
     const textToNumbers = ProcessMessage.spanishTextToNumbers;
     const wordArray = message.split(" ");
-    for (const restaurante in ProcessMessage.spanishDB) {
-      if (message.includes(restaurante)) {
-        this.restaurants.push(restaurante);
-      }
-    }
+    this.pushRestaurants(ProcessMessage.spanishDB, message);
 
     if (this.restaurants.length > 0) {
       while (this.restaurants.length > 0) {
@@ -60,47 +94,33 @@ export default class ProcessMessage {
         const element = ProcessMessage.spanishDB[restaurante];
         for (const food in element) {
           if (message.includes(food)) {
-            var indexOf =
-              wordArray.indexOf(food) > -1
-                ? wordArray.indexOf(food)
-                : wordArray.indexOf(food + "s");
+            var indexOf = this.wordIndexOf(wordArray, food);
             const checkNum = parseInt(wordArray[indexOf - 1], 10);
             const quantity = Number.isNaN(checkNum)
               ? textToNumbers[wordArray[indexOf - 1]]
               : checkNum;
             this.order.push({
-              restaurante: restaurante,
-              platillo: food,
-              cantidad: quantity,
-              precio: element[food] * quantity
+              restaurant: restaurante,
+              food,
+              quantity,
+              price: element[food] * quantity
             });
           }
         }
       }
-      this.order.sort((a, b) =>
-        a.restaurante > b.restaurante
-          ? 1
-          : b.restaurante > a.restaurante
-          ? -1
-          : 0
-      );
 
-      var orderStr = "Tu orden: \n";
-      var total = 0;
-      this.order.forEach((order, index) => {
-        orderStr += `${index + 1}) Restaurante: ${
-          order.restaurante
-        } Cantidad: ${order.cantidad} Platillo: ${order.platillo} Precio: $${
-          order.precio
-        } `;
-        total += order.precio;
-      });
-      orderStr += `Total: $${total}`;
+      this.sortOrder();
+
+      var orderString = "Tu orden: \n";
+      const { orderStr, total } = this.orderString("spanish");
+      orderString += orderStr;
+      orderString += `Total: $${total}`;
+
       if (this.total === total) {
         return "No encontré esos platillos en el restaurante que me dijiste.";
       } else {
         this.total = total;
-        return orderStr;
+        return orderString;
       }
     } else {
       this.stackMessages.push(message);
@@ -120,11 +140,7 @@ export default class ProcessMessage {
       return "Order Canceled";
     }
     const wordArray = message.split(" ");
-    for (const restaurant in ProcessMessage.englishDB) {
-      if (message.includes(restaurant)) {
-        this.restaurants.push(restaurant);
-      }
-    }
+    this.pushRestaurants(ProcessMessage.englishDB, message);
 
     if (this.restaurants.length > 0) {
       while (this.restaurants.length > 0) {
@@ -132,10 +148,7 @@ export default class ProcessMessage {
         const element = ProcessMessage.englishDB[restaurant];
         for (const food in element) {
           if (message.includes(food)) {
-            var indexOf =
-              wordArray.indexOf(food) > -1
-                ? wordArray.indexOf(food)
-                : wordArray.indexOf(food + "s");
+            var indexOf = this.wordIndexOf(wordArray, food);
             const quantity = parseInt(wordArray[indexOf - 1], 10);
             this.order.push({
               restaurant,
@@ -146,24 +159,19 @@ export default class ProcessMessage {
           }
         }
       }
-      this.order.sort((a, b) =>
-        a.restaurant > b.restaurant ? 1 : b.restaurant > a.restaurant ? -1 : 0
-      );
 
-      var orderStr = "Your order: \n";
-      var total = 0;
-      this.order.forEach((order, index) => {
-        orderStr += `${index + 1}) Restaurant: ${order.restaurant} Quantity: ${
-          order.quantity
-        } Food: ${order.food} Price: $${order.price} `;
-        total += order.price;
-      });
-      orderStr += `Total: $${total}`;
+      this.sortOrder();
+
+      var orderString = "Your order: \n";
+      const { orderStr, total } = this.orderString("english");
+      orderString += orderStr;
+      orderString += `Total: $${total}`;
+
       if (this.total === total) {
         return "I didn't found those foods on the restaurant that you told me.";
       } else {
         this.total = total;
-        return orderStr;
+        return orderString;
       }
     } else {
       this.stackMessages.push(message);
