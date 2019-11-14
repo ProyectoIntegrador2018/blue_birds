@@ -1,5 +1,5 @@
 /*global SpeechSDK*/
-export default class AzureTTSHandler {
+export default class AzureSTTHandler {
   static SUBSCRIPTION_KEY = process.env.REACT_APP_AZURE_KEY;
   static REGION = "SouthCentralUS";
 
@@ -22,8 +22,8 @@ export default class AzureTTSHandler {
     startRecognizeOnceAsyncButton = document.getElementById(
       startVoiceRecordingButtonID
     );
-    subscriptionKey = AzureTTSHandler.SUBSCRIPTION_KEY;
-    serviceRegion = AzureTTSHandler.REGION;
+    subscriptionKey = AzureSTTHandler.SUBSCRIPTION_KEY;
+    serviceRegion = AzureSTTHandler.REGION;
     phraseInput = document.getElementById(phraseInputID);
     animation = document.getElementById(animationID);
 
