@@ -1,0 +1,1245 @@
+"mcdonald's": {
+	"puré": 70,
+	"hamburgesas": 140,
+	"langosta": 120
+}
+"starbucks": {
+	"café": 100,
+	"tartas de huevo": 160,
+	"filete de ternera": 100
+}
+"subway": {
+	"sandwich": 160,
+	"arepas": 140,
+	"atún": 140
+}
+"taco bell": {
+	"tacos": 120,
+	"hamburguesa": 90,
+	"puré": 90
+}
+"chick-fil-a": {
+	"atún": 140,
+	"pollo": 90,
+	"carne ahumada": 140
+}
+"wendy's": {
+	"chocolate": 70,
+	"hamburguesa": 70,
+	"carne ahumada": 120
+}
+"dunkin": {
+	"pastel de embudo": 80,
+	"hamburguesa": 80,
+	"arroz con pollo": 70
+}
+"domino's": {
+	"papas": 100,
+	"pizza": 100,
+	"filete de ternera": 140
+}
+"panera bread": {
+	"donuts": 100,
+	"lasaña": 80,
+	"pescado y papas fritas": 120
+}
+"pizza hut": {
+	"cerdo a la barbacoa": 140,
+	"jamón de pavo": 140,
+	"carne ahumada": 160
+}
+"chipotle mexican grill": {
+	"tacos": 70,
+	"carne": 90,
+	"cerdo a la barbacoa": 160
+}
+"sonic drive-in": {
+	"arroz con pollo": 80,
+	"jamón de pavo": 100,
+	"pastel de embudo": 70
+}
+"kfc": {
+	"pollo frito": 90,
+	"lasaña": 70,
+	"puré": 140
+}
+"applebee": {
+	"tartas de huevo": 120,
+	"arroz con pollo": 120,
+	"lasaña": 120
+}
+"olive garden": {
+	"carne ahumada": 120,
+	"brocheta": 140,
+	"tartas de huevo": 140
+}
+"arby's": {
+	"chicken muamba": 80,
+	"huevos": 80,
+	"palomitas con mantequilla": 70
+}
+"little caesars": {
+	"brownie y helado de vainilla": 160,
+	"pizza": 100,
+	"tartas de huevo": 90
+}
+"buffalo wild wings": {
+	"pastel": 70,
+	"pollo a la parmesana": 90,
+	"pollo a la parmesana": 90
+}
+"dairy queen": {
+	"atún": 90,
+	"tacos": 100,
+	"pastel de embudo": 100
+}
+"panda express": {
+	"brownie y helado de vainilla": 120,
+	"brownie y helado de vainilla": 80,
+	"brocheta": 100
+}
+"chili's grill & bar": {
+	"cerdo a la barbacoa": 90,
+	"mazapán": 160,
+	"sushi": 90
+}
+"jack in the box": {
+	"cerdo a la barbacoa": 140,
+	"pizza": 70,
+	"barbacoa": 140
+}
+"ihop": {
+	"hamburguesa": 160,
+	"mazapán": 160,
+	"pastel": 160
+}
+"popeyes louisiana kitchen": {
+	"donuts": 90,
+	"papas": 90,
+	"tacos": 90
+}
+"texas roadhouse": {
+	"pizza": 80,
+	"panqueques con jarabe de arce": 160,
+	"hamburguesa": 80
+}
+"papa john": {
+	"donuts": 80,
+	"pizza": 100,
+	"hamburguesa": 70
+}
+"denny's": {
+	"tostadas con mantequilla": 120,
+	"galletas": 90,
+	"pollo a la parmesana": 100
+}
+"outback steakhouse": {
+	"chocolate": 80,
+	"pizza": 90,
+	"brocheta": 100
+}
+"cracker barrel": {
+	"galletas": 120,
+	"paella de mariscos": 140,
+	"cuerno": 90
+}
+"whataburger": {
+	"paella de mariscos": 70,
+	"lasaña": 140,
+	"fajitas": 70
+}
+"red lobster": {
+	"pastel de carne": 80,
+	"langosta": 140,
+	"cerdo a la barbacoa": 100
+}
+"jimmy john's gourmet sandwiches": {
+	"tostadas con mantequilla": 140,
+	"galletas": 140,
+	"fajitas": 80
+}
+"the cheesecake factory": {
+	"hamburguesa": 80,
+	"panqueques con jarabe de arce": 160,
+	"atún": 160
+}
+"hardee's": {
+	"barbacoa": 140,
+	"carne ahumada": 100,
+	"filete de ternera": 90
+}
+"zaxby's": {
+	"barbacoa": 90,
+	"pastel": 120,
+	"galletas": 140
+}
+"longhorn steakhouse": {
+	"barbacoa": 120,
+	"arroz con pollo": 70,
+	"tostadas con mantequilla": 140
+}
+"golden corral": {
+	"tartas de huevo": 70,
+	"lasaña": 80,
+	"patatas fritas": 70
+}
+"five guys burgers and fries": {
+	"chocolate": 80,
+	"galletas": 70,
+	"hamburguesa": 90
+}
+"culver's": {
+	"jamón de pavo": 70,
+	"sushi": 100,
+	"brocheta": 80
+}
+"red robin gourmet burgers and brews": {
+	"chicken muamba": 70,
+	"lasaña": 80,
+	"brocheta": 100
+}
+"carl's jr": {
+	"fajitas": 100,
+	"pastel": 70,
+	"langosta": 120
+}
+"waffle house": {
+	"palomitas con mantequilla": 100,
+	"galletas": 100,
+	"huevos": 140
+}
+"bojangles": {
+	"tostada francesa": 160,
+	"lasaña": 140,
+	"chicken muamba": 100
+}
+"wingstop": {
+	"tostadas con mantequilla": 80,
+	"barbacoa": 140,
+	"tacos": 160
+}
+"raising cane's chicken fingers": {
+	"patatas fritas": 160,
+	"barbacoa": 140,
+	"pastel": 120
+}
+"tgi fridays": {
+	"fajitas": 90,
+	"lasaña": 90,
+	"tostada francesa": 140
+}
+"jersey mike's subs": {
+	"atún": 80,
+	"puré": 80,
+	"hamburguesa": 70
+}
+"bj's restaurant & brewhouse": {
+	"hamburguesa": 90,
+	"tostada francesa": 70,
+	"filete de ternera": 100
+}
+"steak 'n shake": {
+	"patatas fritas": 120,
+	"jamón de pavo": 80,
+	"lasaña": 70
+}
+"in-n-out burger": {
+	"langosta": 70,
+	"arroz con pollo": 140,
+	"lasaña": 90
+}
+"p.f. chang's": {
+	"pescado y papas fritas": 80,
+	"pescado y papas fritas": 100,
+	"panqueques con jarabe de arce": 120
+}
+"el pollo loco": {
+	"paella de mariscos": 140,
+	"patatas fritas": 70,
+	"fajitas": 90
+}
+"bob evans": {
+	"hamburguesa": 80,
+	"arepas": 160,
+	"chicken muamba": 100
+}
+"qdoba mexican eats": {
+	"jamón de pavo": 70,
+	"paella de mariscos": 90,
+	"pescado y papas fritas": 160
+}
+"del taco": {
+	"tartas de huevo": 90,
+	"maní hervido": 70,
+	"hamburguesa": 90
+}
+"krispy kreme": {
+	"pollo a la parmesana": 120,
+	"galletas": 160,
+	"brownie y helado de vainilla": 100
+}
+"hooters": {
+	"langosta": 160,
+	"pollo": 160,
+	"huevos": 160
+}
+"papa murphy's pizza": {
+	"cerdo a la barbacoa": 160,
+	"paella de mariscos": 70,
+	"arroz con pollo": 140
+}
+"firehouse subs": {
+	"langosta": 100,
+	"puré": 120,
+	"barbacoa": 90
+}
+"tim hortons": {
+	"barbacoa": 70,
+	"pastel de carne": 160,
+	"tartas de huevo": 90
+}
+"ruth's chris steak house": {
+	"langosta": 90,
+	"sushi": 90,
+	"puré": 140
+}
+"church's chicken": {
+	"brocheta": 140,
+	"pescado y papas fritas": 160,
+	"paella de mariscos": 160
+}
+"moe's southwest grill": {
+	"patatas fritas": 70,
+	"donuts": 90,
+	"chocolate": 160
+}
+"cheddar's scratch kitchen": {
+	"arepas": 80,
+	"barbacoa": 70,
+	"brocheta": 100
+}
+"jason's deli": {
+	"huevos": 90,
+	"sushi": 70,
+	"panqueques con jarabe de arce": 140
+}
+"ruby tuesday": {
+	"arroz con pollo": 160,
+	"hamburguesa": 100,
+	"paella de mariscos": 100
+}
+"mcalister's deli": {
+	"fajitas": 80,
+	"arepas": 100,
+	"pastel": 100
+}
+"carrabba's italian grill": {
+	"brocheta": 90,
+	"tartas de huevo": 160,
+	"tartas de huevo": 100
+}
+"california pizza kitchen": {
+	"cerdo a la barbacoa": 70,
+	"panqueques con jarabe de arce": 160,
+	"carne ahumada": 80
+}
+"baskin-robbins": {
+	"lasaña": 90,
+	"puré": 100,
+	"panqueques con jarabe de arce": 80
+}
+"perkins restaurant & bakery": {
+	"atún": 160,
+	"jamón de pavo": 140,
+	"arepas": 160
+}
+"marco's pizza": {
+	"tostada francesa": 160,
+	"maní hervido": 140,
+	"carne ahumada": 90
+}
+"bonefish grill": {
+	"tostadas con mantequilla": 140,
+	"lasaña": 100,
+	"tacos": 70
+}
+"yard house": {
+	"donuts": 160,
+	"puré": 70,
+	"mazapán": 120
+}
+"checkers drive-in restaurants": {
+	"pastel de embudo": 140,
+	"tartas de huevo": 90,
+	"pescado y papas fritas": 140
+}
+"auntie anne's": {
+	"jamón de pavo": 160,
+	"brownie y helado de vainilla": 140,
+	"huevos": 90
+}
+"boston market": {
+	"carne ahumada": 80,
+	"paella de mariscos": 140,
+	"arroz con pollo": 160
+}
+"captain d's seafood kitchen": {
+	"tostadas con mantequilla": 120,
+	"langosta": 100,
+	"chocolate": 90
+}
+"white castle": {
+	"pastel": 70,
+	"tartas de huevo": 90,
+	"pastel de carne": 70
+}
+"dave & buster's": {
+	"maní hervido": 100,
+	"chicken muamba": 100,
+	"chocolate": 90
+}
+"noodles & co.": {
+	"panqueques con jarabe de arce": 100,
+	"tartas de huevo": 160,
+	"patatas fritas": 80
+}
+"logan's roadhouse": {
+	"chocolate": 100,
+	"cuerno": 140,
+	"lasaña": 100
+}
+"einstein bros. bagels": {
+	"galletas": 70,
+	"filete de ternera": 90,
+	"mazapán": 120
+}
+"dutch bros. coffee": {
+	"panqueques con jarabe de arce": 140,
+	"brownie y helado de vainilla": 160,
+	"tacos": 160
+}
+"jamba juice": {
+	"sushi": 70,
+	"filete de ternera": 100,
+	"tostadas con mantequilla": 160
+}
+"freddy's frozen custard & steakburgers": {
+	"pollo": 90,
+	"patatas fritas": 140,
+	"arroz con pollo": 90
+}
+"tropical smoothie cafe": {
+	"pastel": 90,
+	"palomitas con mantequilla": 70,
+	"pastel de carne": 100
+}
+"o'charley's": {
+	"barbacoa": 120,
+	"pescado y papas fritas": 160,
+	"tostada francesa": 100
+}
+"shake shack": {
+	"carne ahumada": 80,
+	"pastel de carne": 90,
+	"pescado y papas fritas": 100
+}
+"potbelly sandwich shop": {
+	"carne ahumada": 90,
+	"pescado y papas fritas": 160,
+	"arroz con pollo": 90
+}
+"the capital grille": {
+	"arepas": 70,
+	"filete de ternera": 80,
+	"pollo": 140
+}
+"long john silver's": {
+	"pizza": 90,
+	"maní hervido": 160,
+	"langosta": 100
+}
+"the habit burger grill": {
+	"sushi": 70,
+	"tostada francesa": 100,
+	"barbacoa": 80
+}
+"round table pizza": {
+	"panqueques con jarabe de arce": 100,
+	"carne ahumada": 140,
+	"sushi": 120
+}
+"mellow mushroom": {
+	"pollo": 120,
+	"maní hervido": 70,
+	"panqueques con jarabe de arce": 80
+}
+"smoothie king": {
+	"brocheta": 120,
+	"arepas": 160,
+	"cerdo a la barbacoa": 100
+}
+"miller's ale house": {
+	"pescado y papas fritas": 140,
+	"lasaña": 90,
+	"pollo": 90
+}
+"maggiano's little italy": {
+	"brocheta": 120,
+	"pollo": 90,
+	"cerdo a la barbacoa": 90
+}
+"first watch": {
+	"arroz con pollo": 80,
+	"carne ahumada": 70,
+	"filete de ternera": 120
+}
+"hungry howie's pizza": {
+	"brownie y helado de vainilla": 100,
+	"puré": 120,
+	"pescado y papas fritas": 100
+}
+"dickey's barbecue pit": {
+	"tostadas con mantequilla": 100,
+	"huevos": 80,
+	"pizza": 70
+}
+"charleys philly steaks": {
+	"pizza": 140,
+	"langosta": 100,
+	"patatas fritas": 160
+}
+"chuy's": {
+	"paella de mariscos": 160,
+	"barbacoa": 80,
+	"paella de mariscos": 90
+}
+"mod pizza": {
+	"palomitas con mantequilla": 120,
+	"brownie y helado de vainilla": 100,
+	"brocheta": 160
+}
+"chuck e. cheese's": {
+	"pescado y papas fritas": 70,
+	"tostadas con mantequilla": 140,
+	"carne ahumada": 140
+}
+"portillo's": {
+	"jamón de pavo": 80,
+	"sushi": 80,
+	"brocheta": 120
+}
+"pollo tropical": {
+	"langosta": 100,
+	"pastel": 70,
+	"panqueques con jarabe de arce": 80
+}
+"krystal company": {
+	"galletas": 100,
+	"hamburguesa": 80,
+	"maní hervido": 90
+}
+"cold stone creamery": {
+	"jamón de pavo": 120,
+	"pollo a la parmesana": 70,
+	"barbacoa": 70
+}
+"zoes kitchen": {
+	"chicken muamba": 80,
+	"sushi": 140,
+	"patatas fritas": 80
+}
+"taco john's": {
+	"cuerno": 90,
+	"paella de mariscos": 160,
+	"pescado y papas fritas": 100
+}
+"pappadeaux seafood kitchen": {
+	"carne ahumada": 120,
+	"jamón de pavo": 70,
+	"barbacoa": 140
+}
+"corner bakery cafe": {
+	"mazapán": 90,
+	"pollo a la parmesana": 100,
+	"arroz con pollo": 140
+}
+"famous dave's": {
+	"pollo a la parmesana": 100,
+	"tostada francesa": 100,
+	"tacos": 70
+}
+"jet's pizza": {
+	"pastel de carne": 100,
+	"arroz con pollo": 80,
+	"atún": 160
+}
+"schlotzsky's": {
+	"patatas fritas": 80,
+	"chicken muamba": 80,
+	"panqueques con jarabe de arce": 90
+}
+"cicis": {
+	"tartas de huevo": 80,
+	"tacos": 120,
+	"pastel": 120
+}
+"saltgrass steak house": {
+	"donuts": 100,
+	"pizza": 140,
+	"pastel de embudo": 70
+}
+"on the border mexican grill & cantina": {
+	"pollo a la parmesana": 100,
+	"carne ahumada": 70,
+	"patatas fritas": 160
+}
+"village inn": {
+	"brownie y helado de vainilla": 70,
+	"brocheta": 140,
+	"sushi": 80
+}
+"twin peaks": {
+	"patatas fritas": 120,
+	"huevos": 80,
+	"palomitas con mantequilla": 80
+}
+"au bon pain": {
+	"hamburguesa": 160,
+	"atún": 100,
+	"filete de ternera": 120
+}
+"texas de brazil churrascaria": {
+	"pollo a la parmesana": 120,
+	"pescado y papas fritas": 120,
+	"langosta": 90
+}
+"blaze pizza": {
+	"galletas": 160,
+	"pastel de carne": 140,
+	"paella de mariscos": 70
+}
+"taco cabana": {
+	"pollo": 70,
+	"jamón de pavo": 70,
+	"brocheta": 70
+}
+"bar louie": {
+	"patatas fritas": 80,
+	"chicken muamba": 100,
+	"arepas": 160
+}
+"pei wei asian diner": {
+	"arepas": 100,
+	"maní hervido": 70,
+	"filete de ternera": 120
+}
+"ninety nine restaurants": {
+	"palomitas con mantequilla": 120,
+	"sushi": 100,
+	"jamón de pavo": 90
+}
+"fleming's prime steakhouse & wine bar": {
+	"patatas fritas": 90,
+	"donuts": 70,
+	"pastel de carne": 160
+}
+"benihana": {
+	"jamón de pavo": 140,
+	"chicken muamba": 140,
+	"chicken muamba": 80
+}
+"fogo de chao": {
+	"cerdo a la barbacoa": 100,
+	"chocolate": 160,
+	"pollo a la parmesana": 100
+}
+"smashburger": {
+	"fajitas": 80,
+	"atún": 160,
+	"tostada francesa": 120
+}
+"black bear diner": {
+	"galletas": 100,
+	"palomitas con mantequilla": 120,
+	"pollo a la parmesana": 160
+}
+"rally's hamburgers": {
+	"pastel de carne": 90,
+	"tostada francesa": 120,
+	"huevos": 160
+}
+"caribou coffee": {
+	"panqueques con jarabe de arce": 160,
+	"tostadas con mantequilla": 100,
+	"pescado y papas fritas": 160
+}
+"cooper's hawk winery & restaurants": {
+	"hamburguesa": 140,
+	"atún": 70,
+	"pescado y papas fritas": 90
+}
+"peet's coffee & tea": {
+	"fajitas": 70,
+	"tostadas con mantequilla": 80,
+	"barbacoa": 100
+}
+"big boy/frisch's big boy": {
+	"tostadas con mantequilla": 100,
+	"tostada francesa": 160,
+	"jamón de pavo": 70
+}
+"sarku japan": {
+	"fajitas": 100,
+	"barbacoa": 120,
+	"chicken muamba": 70
+}
+"sizzler": {
+	"sushi": 160,
+	"tostadas con mantequilla": 140,
+	"cerdo a la barbacoa": 160
+}
+"bill miller bar-b-q": {
+	"cerdo a la barbacoa": 70,
+	"galletas": 140,
+	"huevos": 90
+}
+"old chicago pizza & taproom": {
+	"sushi": 70,
+	"pastel de embudo": 100,
+	"mazapán": 100
+}
+"wienerschnitzel": {
+	"pastel de embudo": 160,
+	"chocolate": 140,
+	"pastel": 160
+}
+"pizza ranch": {
+	"panqueques con jarabe de arce": 140,
+	"chocolate": 120,
+	"puré": 140
+}
+"seasons 52": {
+	"patatas fritas": 120,
+	"carne ahumada": 120,
+	"fajitas": 100
+}
+"friendly's": {
+	"sushi": 120,
+	"cerdo a la barbacoa": 160,
+	"tostada francesa": 80
+}
+"braum's ice cream & dairy stores": {
+	"cerdo a la barbacoa": 70,
+	"lasaña": 80,
+	"chocolate": 90
+}
+"morton's the steakhouse": {
+	"donuts": 160,
+	"cuerno": 70,
+	"palomitas con mantequilla": 100
+}
+"huddle house": {
+	"arepas": 160,
+	"chocolate": 70,
+	"pollo a la parmesana": 160
+}
+"legal sea foods": {
+	"atún": 70,
+	"huevos": 80,
+	"brownie y helado de vainilla": 160
+}
+"pret a manger": {
+	"pollo": 160,
+	"puré": 140,
+	"atún": 80
+}
+"godfather's pizza": {
+	"paella de mariscos": 140,
+	"cerdo a la barbacoa": 100,
+	"cerdo a la barbacoa": 120
+}
+"bahama breeze island grille": {
+	"barbacoa": 160,
+	"pastel de embudo": 70,
+	"pescado y papas fritas": 120
+}
+"sbarro": {
+	"pastel": 70,
+	"carne ahumada": 120,
+	"cerdo a la barbacoa": 70
+}
+"cafe rio mexican grill": {
+	"arepas": 100,
+	"chicken muamba": 80,
+	"pastel": 80
+}
+"rubio's": {
+	"cerdo a la barbacoa": 140,
+	"tartas de huevo": 160,
+	"cuerno": 90
+}
+"fazoli's": {
+	"pollo a la parmesana": 90,
+	"pescado y papas fritas": 160,
+	"panqueques con jarabe de arce": 100
+}
+"mastro's restaurants": {
+	"atún": 80,
+	"chicken muamba": 90,
+	"cuerno": 140
+}
+"romano's macaroni grill": {
+	"huevos": 140,
+	"galletas": 80,
+	"mazapán": 120
+}
+"newk's eatery": {
+	"tostada francesa": 100,
+	"brownie y helado de vainilla": 80,
+	"arepas": 80
+}
+"brio tuscan grille": {
+	"arroz con pollo": 70,
+	"lasaña": 100,
+	"pastel de embudo": 100
+}
+"a&w all-american food": {
+	"langosta": 160,
+	"brocheta": 70,
+	"pizza": 70
+}
+"which wich": {
+	"huevos": 100,
+	"panqueques con jarabe de arce": 140,
+	"arroz con pollo": 100
+}
+"fuzzy's taco shop": {
+	"hamburguesa": 160,
+	"brownie y helado de vainilla": 90,
+	"pastel de carne": 160
+}
+"uncle julio's": {
+	"paella de mariscos": 140,
+	"tartas de huevo": 100,
+	"lasaña": 120
+}
+"torchy's tacos": {
+	"chicken muamba": 100,
+	"pollo a la parmesana": 80,
+	"cuerno": 120
+}
+"beef 'o brady's": {
+	"pollo": 70,
+	"hamburguesa": 70,
+	"fajitas": 90
+}
+"hard rock cafe": {
+	"lasaña": 100,
+	"huevos": 70,
+	"paella de mariscos": 120
+}
+"souplantation & sweet tomatoes": {
+	"pollo a la parmesana": 100,
+	"tartas de huevo": 100,
+	"fajitas": 80
+}
+"luby's": {
+	"huevos": 90,
+	"brocheta": 140,
+	"brownie y helado de vainilla": 80
+}
+"sonny's bbq": {
+	"patatas fritas": 140,
+	"sushi": 120,
+	"tartas de huevo": 90
+}
+"uno pizzeria & grill": {
+	"chocolate": 120,
+	"cuerno": 100,
+	"mazapán": 90
+}
+"johnny rockets": {
+	"tostadas con mantequilla": 90,
+	"brownie y helado de vainilla": 160,
+	"filete de ternera": 140
+}
+"penn station east coast subs": {
+	"hamburguesa": 70,
+	"tartas de huevo": 160,
+	"donuts": 120
+}
+"claim jumper": {
+	"pastel de carne": 90,
+	"tostadas con mantequilla": 120,
+	"pollo": 90
+}
+"fuddruckers": {
+	"barbacoa": 140,
+	"cuerno": 90,
+	"brocheta": 120
+}
+"cinnabon": {
+	"brownie y helado de vainilla": 120,
+	"tostada francesa": 70,
+	"barbacoa": 100
+}
+"buca di beppo": {
+	"fajitas": 120,
+	"puré": 120,
+	"arepas": 90
+}
+"shoney's": {
+	"pollo a la parmesana": 160,
+	"palomitas con mantequilla": 120,
+	"jamón de pavo": 100
+}
+"bubba gump shrimp co.": {
+	"panqueques con jarabe de arce": 160,
+	"pescado y papas fritas": 120,
+	"panqueques con jarabe de arce": 70
+}
+"del frisco's double eagle steak house": {
+	"tostadas con mantequilla": 90,
+	"chocolate": 120,
+	"palomitas con mantequilla": 80
+}
+"mimi's cafe": {
+	"cerdo a la barbacoa": 90,
+	"cerdo a la barbacoa": 90,
+	"pastel": 140
+}
+"houlihan's": {
+	"maní hervido": 140,
+	"brocheta": 90,
+	"galletas": 80
+}
+"j. alexander's": {
+	"brocheta": 160,
+	"jamón de pavo": 140,
+	"tacos": 120
+}
+"joe's crab shack": {
+	"atún": 120,
+	"puré": 140,
+	"brocheta": 70
+}
+"mccormick & schmick's": {
+	"palomitas con mantequilla": 90,
+	"jamón de pavo": 120,
+	"galletas": 160
+}
+"firebirds wood fired grill": {
+	"arroz con pollo": 100,
+	"cuerno": 80,
+	"carne ahumada": 70
+}
+"donatos pizza": {
+	"paella de mariscos": 100,
+	"donuts": 120,
+	"filete de ternera": 160
+}
+"lazy dog restaurant & bar": {
+	"galletas": 140,
+	"mazapán": 120,
+	"pastel de carne": 80
+}
+"old country buffet/hometown buffet": {
+	"pollo a la parmesana": 120,
+	"tostadas con mantequilla": 90,
+	"carne ahumada": 140
+}
+"pappasito's cantina": {
+	"panqueques con jarabe de arce": 70,
+	"paella de mariscos": 70,
+	"lasaña": 140
+}
+"the melting pot": {
+	"jamón de pavo": 100,
+	"arepas": 160,
+	"fajitas": 160
+}
+"le pain quotidien": {
+	"arepas": 90,
+	"cerdo a la barbacoa": 140,
+	"pollo a la parmesana": 120
+}
+"golden chick": {
+	"brownie y helado de vainilla": 140,
+	"donuts": 90,
+	"lasaña": 70
+}
+"islands fine burgers & drinks": {
+	"chocolate": 70,
+	"pescado y papas fritas": 160,
+	"tostada francesa": 80
+}
+"la madeleine country french cafe": {
+	"barbacoa": 120,
+	"panqueques con jarabe de arce": 100,
+	"carne ahumada": 120
+}
+"wetzel's pretzels": {
+	"panqueques con jarabe de arce": 120,
+	"lasaña": 90,
+	"patatas fritas": 140
+}
+"great harvest bread co.": {
+	"mazapán": 120,
+	"filete de ternera": 80,
+	"pollo": 160
+}
+"smokey bones bar & fire grill": {
+	"palomitas con mantequilla": 160,
+	"galletas": 70,
+	"galletas": 160
+}
+"taco bueno": {
+	"tostada francesa": 90,
+	"barbacoa": 140,
+	"tartas de huevo": 90
+}
+"the original pancake house": {
+	"chicken muamba": 90,
+	"hamburguesa": 90,
+	"arepas": 100
+}
+"true food kitchen": {
+	"pescado y papas fritas": 100,
+	"mazapán": 160,
+	"puré": 160
+}
+"mountain mike's pizza": {
+	"langosta": 140,
+	"puré": 120,
+	"brownie y helado de vainilla": 70
+}
+"jack's": {
+	"pastel": 70,
+	"arroz con pollo": 140,
+	"tartas de huevo": 120
+}
+"lucille's smokehouse bar-b-que": {
+	"langosta": 90,
+	"tostadas con mantequilla": 70,
+	"filete de ternera": 160
+}
+"eat'n park": {
+	"pastel de embudo": 160,
+	"pollo": 140,
+	"puré": 100
+}
+"the coffee bean & tea leaf": {
+	"cuerno": 70,
+	"chicken muamba": 100,
+	"pastel": 90
+}
+"kona grill": {
+	"pollo": 80,
+	"tostada francesa": 160,
+	"carne ahumada": 160
+}
+"larosa's pizzeria": {
+	"pescado y papas fritas": 70,
+	"panqueques con jarabe de arce": 120,
+	"fajitas": 80
+}
+"sweetgreen": {
+	"pescado y papas fritas": 70,
+	"panqueques con jarabe de arce": 160,
+	"pollo": 100
+}
+"menchie's frozen yogurt": {
+	"tacos": 90,
+	"arepas": 70,
+	"cuerno": 100
+}
+"anthony's coal fired pizza": {
+	"pastel de embudo": 80,
+	"pastel de carne": 100,
+	"maní hervido": 70
+}
+"bruegger's bagels": {
+	"pastel": 90,
+	"pollo": 70,
+	"pastel de embudo": 80
+}
+"farmer boys": {
+	"pollo": 90,
+	"brownie y helado de vainilla": 80,
+	"tostada francesa": 160
+}
+"roosters": {
+	"atún": 80,
+	"panqueques con jarabe de arce": 120,
+	"carne ahumada": 160
+}
+"hurricane grill & wings": {
+	"jamón de pavo": 100,
+	"pastel": 100,
+	"tostada francesa": 90
+}
+"giordano's": {
+	"langosta": 160,
+	"sushi": 80,
+	"huevos": 160
+}
+"the old spaghetti factory": {
+	"cuerno": 90,
+	"filete de ternera": 80,
+	"arroz con pollo": 90
+}
+"grand lux cafe": {
+	"pastel de embudo": 90,
+	"maní hervido": 80,
+	"palomitas con mantequilla": 70
+}
+"wayback burgers": {
+	"mazapán": 80,
+	"pastel de embudo": 120,
+	"panqueques con jarabe de arce": 90
+}
+"rainforest cafe": {
+	"carne ahumada": 90,
+	"maní hervido": 120,
+	"pastel de carne": 160
+}
+"pdq": {
+	"tostada francesa": 140,
+	"huevos": 80,
+	"brownie y helado de vainilla": 80
+}
+"pizza pro": {
+	"arroz con pollo": 160,
+	"pescado y papas fritas": 120,
+	"maní hervido": 100
+}
+"pollo campero": {
+	"galletas": 70,
+	"tacos": 120,
+	"lasaña": 160
+}
+"duffy's sports grill": {
+	"panqueques con jarabe de arce": 140,
+	"hamburguesa": 90,
+	"maní hervido": 70
+}
+"tijuana flats": {
+	"filete de ternera": 140,
+	"jamón de pavo": 100,
+	"pollo": 70
+}
+"black angus steakhouse": {
+	"mazapán": 90,
+	"fajitas": 120,
+	"jamón de pavo": 160
+}
+"quiznos": {
+	"arepas": 140,
+	"pizza": 120,
+	"galletas": 140
+}
+"shari's cafe and pies": {
+	"pollo": 140,
+	"sushi": 160,
+	"pastel de embudo": 140
+}
+"biggby coffee": {
+	"tartas de huevo": 100,
+	"barbacoa": 120,
+	"pescado y papas fritas": 80
+}
+"rosati's pizza": {
+	"atún": 70,
+	"pescado y papas fritas": 120,
+	"cerdo a la barbacoa": 100
+}
+"bertucci's": {
+	"panqueques con jarabe de arce": 120,
+	"huevos": 140,
+	"sushi": 80
+}
+"yogurtland": {
+	"carne ahumada": 90,
+	"lasaña": 160,
+	"huevos": 140
+}
+"burgerfi": {
+	"tostadas con mantequilla": 70,
+	"palomitas con mantequilla": 90,
+	"panqueques con jarabe de arce": 120
+}
+"lee's famous recipe chicken": {
+	"donuts": 100,
+	"jamón de pavo": 80,
+	"chicken muamba": 100
+}
+"eddie v's prime seafood": {
+	"paella de mariscos": 70,
+	"arroz con pollo": 100,
+	"pescado y papas fritas": 120
+}
+"great american cookies": {
+	"brownie y helado de vainilla": 120,
+	"brocheta": 120,
+	"tostadas con mantequilla": 140
+}
+"bravo! cucina italiana": {
+	"cuerno": 90,
+	"jamón de pavo": 160,
+	"barbacoa": 90
+}
+"baja fresh mexican grill": {
+	"pastel de embudo": 140,
+	"sushi": 90,
+	"tacos": 100
+}
+"slim chickens": {
+	"brownie y helado de vainilla": 160,
+	"jamón de pavo": 160,
+	"puré": 70
+}
+"the brass tap": {
+	"patatas fritas": 100,
+	"pizza": 100,
+	"hamburguesa": 120
+}
+"waba grill": {
+	"brownie y helado de vainilla": 80,
+	"pollo": 90,
+	"huevos": 160
+}
+"stk": {
+	"pescado y papas fritas": 160,
+	"filete de ternera": 80,
+	"carne ahumada": 90
+}
+"54th street restaurant & drafthouse": {
+	"hamburguesa": 100,
+	"fajitas": 120,
+	"brocheta": 160
+}
+"metro diner": {
+	"atún": 70,
+	"huevos": 100,
+	"tartas de huevo": 160
+}
+"freebirds world burrito": {
+	"pastel de carne": 140,
+	"barbacoa": 160,
+	"tacos": 100
+}
+"togo's sandwiches": {
+	"chicken muamba": 160,
+	"filete de ternera": 70,
+	"brocheta": 120
+}
+"costa vida fresh mexican grill": {
+	"fajitas": 80,
+	"pastel": 160,
+	"palomitas con mantequilla": 160
+}
+"l&l hawaiian barbecue": {
+	"arroz con pollo": 90,
+	"pastel de carne": 70,
+	"donuts": 120
+}
