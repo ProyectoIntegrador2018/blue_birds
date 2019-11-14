@@ -36,6 +36,12 @@ export default class ProcessMessage {
   };
 
   matchSpanish(message) {
+    if (this.stackMessages.length > 0) {
+      var pastMessage = this.stackMessages.pop();
+      pastMessage += ` ${message}`;
+      return this.matchSpanish(pastMessage);
+    }
+
     if (message === "cancelar orden") {
       this.order = [];
       return "Orden Cancelada";
@@ -102,6 +108,12 @@ export default class ProcessMessage {
   }
 
   matchEnglish(message) {
+    if (this.stackMessages.length > 0) {
+      var pastMessage = this.stackMessages.pop();
+      pastMessage += ` ${message}`;
+      return this.matchEnglish(pastMessage);
+    }
+
     if (message === "cancel order") {
       this.order = [];
       return "Order Canceled";

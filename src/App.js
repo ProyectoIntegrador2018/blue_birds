@@ -34,18 +34,6 @@ class App extends React.Component {
     this.forceUpdate();
   }
 
-  pushSpanishInfo() {
-    this.pushMessageToList(
-      "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'"
-    );
-  }
-
-  pushEnglishInfo() {
-    this.pushMessageToList(
-      "Hello, I am here to help you process your order, what would you be ordering today? To cancel your order please say 'Cancel order'"
-    );
-  }
-
   processMessage(message) {
     var lowerMessage = message.toLowerCase();
     const language = document.getElementsByName("language")[0].checked;
@@ -92,11 +80,15 @@ class App extends React.Component {
     document.getElementsByName("language")[0].checked = true;
 
     document.getElementsByName("language")[0].addEventListener("click", () => {
-      this.pushSpanishInfo();
+      this.pushMessageToList(
+        "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'"
+      );
     });
 
     document.getElementsByName("language")[1].addEventListener("click", () => {
-      this.pushEnglishInfo();
+      this.pushMessageToList(
+        "Hello, I am here to help you process your order, what would you be ordering today? To cancel your order please say 'Cancel order'"
+      );
     });
   }
 
