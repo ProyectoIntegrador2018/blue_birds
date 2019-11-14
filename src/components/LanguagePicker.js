@@ -24,11 +24,9 @@ export default class LanguagePicker extends React.Component {
     if (e.target.value === "es-MX") {
       this.handleChange("startRecognizeButtonEnglish", "none");
       this.handleChange("startRecognizeButtonSpanish", "block");
-      // this.props.pushSpanish();
     } else {
       this.handleChange("startRecognizeButtonEnglish", "block");
       this.handleChange("startRecognizeButtonSpanish", "none");
-      // this.props.pushEnglish();
     }
   }
 

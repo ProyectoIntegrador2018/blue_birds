@@ -27,10 +27,7 @@ export default class MessageBar extends React.Component {
                 <Microphone />
               </div>
               <div className="input-group-prepend">
-                <LanguagePicker
-                  pushSpanish={this.props.pushSpanish}
-                  pushEnglish={this.props.pushEnglish}
-                />
+                <LanguagePicker />
               </div>
               <input
                 type="text"

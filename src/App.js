@@ -31,6 +31,7 @@ class App extends React.Component {
       is_receiver: true,
       message
     });
+    this.forceUpdate();
   }
 
   pushSpanishInfo() {
@@ -89,6 +90,14 @@ class App extends React.Component {
     );
 
     document.getElementsByName("language")[0].checked = true;
+
+    document.getElementsByName("language")[0].addEventListener("click", () => {
+      this.pushSpanishInfo();
+    });
+
+    document.getElementsByName("language")[1].addEventListener("click", () => {
+      this.pushEnglishInfo();
+    });
   }
 
   render() {
@@ -103,11 +112,7 @@ class App extends React.Component {
           </header>
           <MessageSection messageList={this.messageList} />
         </div>
-        <MessageBar
-          onClick={this.sendMessage}
-          pushSpanish={this.pushSpanishInfo}
-          pushEnglish={this.pushEnglishInfo}
-        />
+        <MessageBar onClick={this.sendMessage} />
       </div>
     );
   }
