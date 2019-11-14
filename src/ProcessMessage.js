@@ -64,9 +64,10 @@ export default class ProcessMessage {
               wordArray.indexOf(food) > -1
                 ? wordArray.indexOf(food)
                 : wordArray.indexOf(food + "s");
-            const quantity = Number.isNaN(parseInt(wordArray[indexOf - 1]))
+            const checkNum = parseInt(wordArray[indexOf - 1], 10);
+            const quantity = Number.isNaN(checkNum)
               ? textToNumbers[wordArray[indexOf - 1]]
-              : parseInt(wordArray[indexOf - 1]);
+              : checkNum;
             this.order.push({
               restaurante: restaurante,
               platillo: food,
@@ -135,7 +136,7 @@ export default class ProcessMessage {
               wordArray.indexOf(food) > -1
                 ? wordArray.indexOf(food)
                 : wordArray.indexOf(food + "s");
-            const quantity = parseInt(wordArray[indexOf - 1]);
+            const quantity = parseInt(wordArray[indexOf - 1], 10);
             this.order.push({
               restaurant,
               food,
