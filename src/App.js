@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
-import AzureTTSHandler from "./AzureSTTHandler";
+import AzureSTTHandler from "./AzureSTTHandler";
 import ProcessMessage from "./ProcessMessage";
 import MessageSection from "./components/MessageSection";
 import MessageBar from "./components/MessageBar";
