@@ -1,9 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
-import AzureTTSHandler from "./AzureTTSHandler";
+import AzureTTSHandler from "./AzureSTTHandler";
 import ProcessMessage from "./ProcessMessage";
-
 import MessageSection from "./components/MessageSection";
 import MessageBar from "./components/MessageBar";
 
@@ -21,6 +20,18 @@ class App extends React.Component {
           "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'"
       }
     ];
+    
+    this.responseList = [
+      "Hello",
+      "Hello, can I take your order?",
+      "Is that all?",
+      "Your total is of 30 dollars",
+      "You can pick up your food in the next window",
+      "Thank you for your order",
+      "Hope to see you back soon"
+    ];
+
+    this.handleMessage = this.handleMessage.bind(this);
     this.pushMessageToList = this.pushMessageToList.bind(this);
     this.sendMessage = this.sendMessage.bind(this);
   }
@@ -32,6 +43,10 @@ class App extends React.Component {
       message
     });
     this.forceUpdate();
+  }
+
+  handleMessage() {
+    this.sendResponse();
   }
 
   processMessage(message) {
@@ -62,15 +77,25 @@ class App extends React.Component {
     }
   }
 
+  sendResponse() {
+    let rand = Math.floor(Math.random() * 6);
+    this.messageList.push({
+      key: this.messageList.length,
+      is_receiver: true,
+      message: this.responseList[rand]
+    });
+    this.forceUpdate();
+  }
+
   componentDidMount() {
-    AzureTTSHandler.initializeVoiceRecognition(
+    AzureSTTHandler.initializeVoiceRecognition(
       "warning",
       "phraseInput",
       "startRecognizeButtonSpanish",
       "soundWave"
     );
 
-    AzureTTSHandler.initializeVoiceRecognition(
+    AzureSTTHandler.initializeVoiceRecognition(
       "warning",
       "phraseInput",
       "startRecognizeButtonEnglish",
@@ -104,7 +129,7 @@ class App extends React.Component {
           </header>
           <MessageSection messageList={this.messageList} />
         </div>
-        <MessageBar onClick={this.sendMessage} />
+        <MessageBar onClick={this.sendMessage} onClickOperator={this.handleMessage} />
       </div>
     );
   }
