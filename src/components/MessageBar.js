@@ -3,7 +3,6 @@ import SendButton from "./SendButton";
 import Microphone from "./Microphone";
 import LanguagePicker from "./LanguagePicker";
 import wave from '../assets/soundwave.gif';
-import Operator from './OperatorButton';
 
 const waveStyle = {
   display: "none",
@@ -26,9 +25,6 @@ export default class MessageBar extends React.Component {
               </div>
               <div className="input-group-prepend">
                 <LanguagePicker />
-              </div>
-              <div className="input-group-prepend" id="operator-btn">
-                <Operator onClickOperator={this.props.onClickOperator} />
               </div>
               <input type="text" className="form-control" placeholder="" id="phraseInput" />
               <img src={wave} alt="sound_wave" style={waveStyle} id="soundWave" />
