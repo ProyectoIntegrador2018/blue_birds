@@ -1,0 +1,112 @@
+{
+	"mcdonald's": {
+		"big mac": 70,
+		"chocolate shake": 160,
+		"apple pie": 90
+	},
+	"starbucks": {
+		"coffee": 160,
+		"apple juice": 80,
+		"panini": 140
+	},
+	"subway": {
+		"potato chips": 90,
+		"sandwich": 100,
+		"french toast": 90
+	},
+	"taco bell": {
+		"tacos": 90,
+		"hamburger": 70,
+		"barbecue": 140
+	},
+	"wendy's": {
+		"cheeseburger": 80,
+		"mashed potatoes": 160,
+		"hamburger": 70
+	},
+	"dunkin": {
+		"ice cream": 80,
+		"omelette": 140,
+		"donuts": 90
+	},
+	"domino's": {
+		"salad": 100,
+		"big pizza": 100,
+		"pizza": 70
+	},
+	"pizza hut": {
+		"supreme": 100,
+		"pasta": 140,
+		"pizza": 70
+	},
+	"krispy kreme": {
+		"donuts": 100,
+		"coffee": 100,
+		"cake": 70
+	},
+	"kfc": {
+		"chicken": 120,
+		"potatos": 70,
+		"donuts": 120
+	},
+	"applebee's": {
+		"hamburger": 80,
+		"cake": 90,
+		"salad": 120
+	},
+	"little caesars": {
+		"pizza": 80,
+		"taco": 90,
+		"omelette": 80
+	},
+	"buffalo wild wings": {
+		"chicken": 160,
+		"egg": 140,
+		"pancake": 100
+	},
+	"jack in the box": {
+		"pizza": 70,
+		"chesseburger": 140,
+		"chicken nuggets": 100
+	},
+	"ihop": {
+		"eggs": 90,
+		"pancakes": 160,
+		"waffles": 70
+	},
+	"papa john's": {
+		"eggs": 90,
+		"peanuts": 120,
+		"pizza": 70
+	},
+	"denny's": {
+		"sandwich": 140,
+		"pancake": 100,
+		"breakfast": 140
+	},
+	"red lobster": {
+		"lobster": 120,
+		"egg": 80,
+		"salad": 80
+	},
+	"carl's jr": {
+		"hamburger": 80,
+		"ice cream": 70,
+		"cake": 100
+	},
+	"popeyes": {
+		"coffee": 160,
+		"sandwich": 80,
+		"croissant": 120
+	},
+	"luby's": {
+		"roast beef": 70,
+		"smashed potatoes": 140,
+		"cheesecake": 100
+	},
+	"burger king": {
+		"hamburger": 90,
+		"salad": 100,
+		"diet coke": 70
+	}
+}

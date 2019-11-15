@@ -7,6 +7,7 @@ export default class ProcessMessage {
   }
 
   static spanishTextToNumbers = {
+    un: 1,
     uno: 1,
     una: 1,
     unas: 1,
@@ -15,25 +16,8 @@ export default class ProcessMessage {
     sin: 0
   };
 
-  static spanishDB = {
-    mcdonalds: {
-      hamburguesa: 20,
-      papas: 5
-    },
-    "burger king": {
-      whopper: 50
-    }
-  };
-
-  static englishDB = {
-    "mcdonald's": {
-      hamburger: 20,
-      fries: 5
-    },
-    "burger king": {
-      whopper: 50
-    }
-  };
+  static spanishDB = require('./spanishDB.json');
+  static englishDB = require('./englishDB.json');
 
   pushRestaurants(dataBase, message) {
     for (const restaurant in dataBase) {
