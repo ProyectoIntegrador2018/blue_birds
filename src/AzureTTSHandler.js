@@ -22,7 +22,7 @@ function getAccessToken(subscriptionKey, text, language) {
 
 // Change Text to Speech
 async function textToSpeech(accessToken, text, language) {
-    var femaleName = language === "es-MX" ? femaleName = "HildaRUS" : femaleName = "ZiraRUS"
+    var femaleName = language === "es-MX" ? "HildaRUS" : "ZiraRUS"
     const options = {
         method: 'POST',
         body: `<speak version='1.0' xml:lang='${language}'><voice xml:lang='${language}' xml:gender='Female' name='Microsoft Server Speech Text to Speech Voice (${language}, ${femaleName})'>${text}</voice></speak>`,
