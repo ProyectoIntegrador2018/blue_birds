@@ -2,13 +2,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
 import AzureSTTHandler from "./AzureSTTHandler";
+import ProcessMessage from "./ProcessMessage";
+import AzureTTSHandler from "./AzureTTSHandler";
 import MessageSection from "./components/MessageSection";
 import MessageBar from "./components/MessageBar";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.messageList = [];
+    this.state = {
+      processor: new ProcessMessage()
+    };
+    this.messageList = [
+      {
+        key: 0,
+        is_receiver: true,
+        message:
+          "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'"
+      }
+    ];
+
     this.responseList = [
       "Hello",
       "Hello, can I take your order?",
@@ -19,34 +32,47 @@ class App extends React.Component {
       "Hope to see you back soon"
     ];
 
-    this.handleMessage = this.handleMessage.bind(this);
+    this.pushMessageToList = this.pushMessageToList.bind(this);
     this.sendMessage = this.sendMessage.bind(this);
   }
 
-  handleMessage() {
-    this.sendResponse();
+  pushMessageToList(message, language) {
+    this.messageList.push({
+      key: this.messageList.length,
+      is_receiver: true,
+      message
+    });
+    this.forceUpdate();
+    AzureTTSHandler.initializeSpeech(message, language)
+  }
+
+  processMessage(message) {
+    var lowerMessage = message.toLowerCase();
+    const language = document.getElementsByName("language")[0].checked;
+    const response = language
+      ? this.state.processor.matchSpanish(lowerMessage)
+      : this.state.processor.matchEnglish(lowerMessage);
+    this.messageList.push({
+      key: this.messageList.length,
+      is_receiver: true,
+      message: response
+    });
+    AzureTTSHandler.initializeSpeech(response, language ? "es-MX" : "en-US");
   }
 
   sendMessage() {
     let phraseInput = document.getElementById("phraseInput");
     let message = phraseInput.value;
-    phraseInput.value = "";
-    this.messageList.push({
-      key: this.messageList.length,
-      is_receiver: false,
-      message: message
-    });
-    this.forceUpdate();
-  }
-
-  sendResponse() {
-    let rand = Math.floor(Math.random() * 6);
-    this.messageList.push({
-      key: this.messageList.length,
-      is_receiver: true,
-      message: this.responseList[rand]
-    });
-    this.forceUpdate();
+    if (message !== "") {
+      phraseInput.value = "";
+      this.messageList.push({
+        key: this.messageList.length,
+        is_receiver: false,
+        message: message
+      });
+      this.processMessage(message);
+      this.forceUpdate();
+    }
   }
 
   componentDidMount() {
@@ -63,6 +89,22 @@ class App extends React.Component {
       "startRecognizeButtonEnglish",
       "soundWave"
     );
+
+    AzureTTSHandler.initializeSpeech(this.messageList[0].message, "es-MX");
+
+    document.getElementsByName("language")[0].checked = true;
+
+    document.getElementsByName("language")[0].addEventListener("click", () => {
+      this.pushMessageToList(
+        "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'", "es-MX"
+      );
+    });
+
+    document.getElementsByName("language")[1].addEventListener("click", () => {
+      this.pushMessageToList(
+        "Hello, I am here to help you process your order, what would you be ordering today? To cancel your order please say 'Cancel order'", "en-US"
+      );
+    });
   }
 
   render() {
@@ -77,7 +119,7 @@ class App extends React.Component {
           </header>
           <MessageSection messageList={this.messageList} />
         </div>
-        <MessageBar onClick={this.sendMessage} onClickOperator={this.handleMessage} />
+        <MessageBar onClick={this.sendMessage} />
       </div>
     );
   }
