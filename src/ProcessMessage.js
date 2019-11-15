@@ -62,11 +62,11 @@ export default class ProcessMessage {
       if (language === "spanish") {
         orderStr += `${index + 1}) Restaurante: ${order.restaurant} Cantidad: ${
           order.quantity
-        } Platillo: ${order.food} Precio: $${order.price} `;
+          } Platillo: ${order.food} Precio: $${order.price} `;
       } else {
         orderStr += `${index + 1}) Restaurant: ${order.restaurant} Quantity: ${
           order.quantity
-        } Food: ${order.food} Price: $${order.price} `;
+          } Food: ${order.food} Price: $${order.price} `;
       }
       total += order.price;
     });
@@ -175,7 +175,7 @@ export default class ProcessMessage {
       }
     } else {
       this.stackMessages.push(message);
-      return "Sorry but I couldn't process your order correctly because I didn't found a restaurant in your order, could you mention it?";
+      return "Sorry but I couldn't process your order correctly because I didn't find a restaurant in your order, could you mention it?";
     }
   }
 }
