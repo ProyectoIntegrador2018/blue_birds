@@ -12,11 +12,10 @@ function getAccessToken(subscriptionKey, text, language) {
             return response.text();
         })
         .then(function (data) {
-            console.log(data);
             textToSpeech(data, text, language);
         })
         .catch(function (err) {
-            console.error(err);
+            console.log(err);
         });
 }
 
@@ -34,11 +33,9 @@ async function textToSpeech(accessToken, text, language) {
     }
     fetch('https://speech.platform.bing.com/synthesize', options)
         .then(function (response) {
-            console.log("response: ", response)
             return response.blob();
         })
         .then(function (data) {
-            console.log("data: ", data)
 
             var url = window.URL.createObjectURL(data);
             window.audio = new Audio();
