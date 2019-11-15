@@ -168,7 +168,7 @@ export default class ProcessMessage {
       orderString += `Total: $${total}`;
 
       if (this.total === total) {
-        return "I didn't found those foods on the restaurant that you told me.";
+        return "I didn't find those meals on the restaurant you mentioned.";
       } else {
         this.total = total;
         return orderString;
