@@ -22,12 +22,7 @@ function getAccessToken(subscriptionKey, text, language) {
 
 // Change Text to Speech
 async function textToSpeech(accessToken, text, language) {
-    var femaleName;
-    if (language === "es-MX") {
-        femaleName = "HildaRUS";
-    } else {
-        femaleName = "ZiraRUS";
-    }
+    var femaleName = language === "es-MX" ? femaleName = "HildaRUS" : femaleName = "ZiraRUS"
     const options = {
         method: 'POST',
         body: `<speak version='1.0' xml:lang='${language}'><voice xml:lang='${language}' xml:gender='Female' name='Microsoft Server Speech Text to Speech Voice (${language}, ${femaleName})'>${text}</voice></speak>`,
@@ -49,12 +44,10 @@ async function textToSpeech(accessToken, text, language) {
             window.audio = new Audio();
             window.audio.src = url;
             window.audio.play();
-
         })
         .catch(function (err) {
             console.log(err);
         });
-    // console.log(speechFile);
 }
 
 export default class TextToSpeech {
