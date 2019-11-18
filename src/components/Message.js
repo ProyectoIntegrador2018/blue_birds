@@ -1,5 +1,5 @@
 import React from "react";
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+import ReactHtmlParser from 'react-html-parser';
 
 class Message extends React.Component {
   constructor(props) {
