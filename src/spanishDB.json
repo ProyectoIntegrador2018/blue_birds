@@ -1,0 +1,117 @@
+{    
+    "los hidalgos": {
+        "puré": 70,
+        "hamburgesas": 140,
+        "langosta": 120
+    },
+    "la catarina": {
+        "café": 100,
+        "tartas de huevo": 160,
+        "filete de ternera": 100
+    },
+    "la escondida": {
+        "sándwich": 160,
+        "arepas": 140,
+        "taco": 140
+    },
+    "el gran pastor": {
+        "taco": 120,
+        "hamburguesa": 90,
+        "puré": 90
+    },
+    "restaurante san carlos": {
+        "taco": 140,
+        "pollo": 90,
+        "tostada": 140
+    },
+    "la embajada": {
+        "chocolate": 70,
+        "hamburguesa": 70,
+        "carne": 120
+    },
+    "la nacional": {
+        "pastel": 80,
+        "hamburguesa": 80,
+        "arroz": 70
+    },
+    "la pizzería": {
+        "papas": 100,
+        "pizza": 100,
+        "filete": 140
+    },
+    "mar del sur": {
+        "mariscos": 100,
+        "lasaña": 80,
+        "pescado": 120
+    },
+    "la buena barra": {
+        "barbacoa": 140,
+        "pavo": 140,
+        "carne": 160
+    },
+    "la divina": {
+        "taco": 70,
+        "carne": 90,
+        "barbacoa": 160
+    },
+    "la méxico": {
+        "pollo": 80,
+        "chilaquiles": 100,
+        "pastel": 70
+    },
+    "el rey del cabrito": {
+        "huevos": 90,
+        "cabrito": 70,
+        "puré": 140
+    },
+    "fonda francisco": {
+        "tarta": 120,
+        "pollo": 120,
+        "lasaña": 120
+    },
+    "la puntada": {
+        "carne": 120,
+        "brocheta": 140,
+        "huevo": 140
+    },
+    "el granero": {
+        "carne": 80,
+        "huevos": 80,
+        "palomitas": 70
+    },
+    "la barra": {
+        "helado": 160,
+        "pizza": 100,
+        "taco": 90
+    },
+    "taquería palencia": {
+        "bebida": 70,
+        "taco": 90,
+        "carne": 90
+    },
+    "parrillada cumbres": {
+        "taco": 90,
+        "hamburguesa": 100,
+        "pastel": 100
+    },
+    "tacos primo": {
+        "taco": 120,
+        "quesadilla": 80,
+        "dulce": 100
+    },
+    "los arcos": {
+        "filete": 90,
+        "ensalada": 160,
+        "sushi": 90
+    },
+    "tacos laredo": {
+        "tacos": 140,
+        "pizza": 70,
+        "barbacoa": 140
+    },
+    "mcdonalds": {
+        "hamburguesa": 160,
+        "helado": 160,
+        "pastel": 160
+    }
+}
