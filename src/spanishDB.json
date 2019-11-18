@@ -61,7 +61,7 @@
     },
     "el rey del cabrito": {
         "huevos": 90,
-        "cabrito": 70,
+        "carne": 70,
         "puré": 140
     },
     "fonda francisco": {
@@ -94,7 +94,7 @@
         "hamburguesa": 100,
         "pastel": 100
     },
-    "tacos primo": {
+    "el primo": {
         "taco": 120,
         "quesadilla": 80,
         "dulce": 100
@@ -104,8 +104,8 @@
         "ensalada": 160,
         "sushi": 90
     },
-    "tacos laredo": {
-        "tacos": 140,
+    "el laredo": {
+        "taco": 140,
         "pizza": 70,
         "barbacoa": 140
     },

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
 
 class Message extends React.Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class Message extends React.Component {
     return (
       <div className={this.clase}>
         <div className="message">
-          <p>{this.message}</p>
+          <p>{ ReactHtmlParser(this.message) }</p>
         </div>
       </div>
     );

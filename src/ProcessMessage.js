@@ -44,13 +44,13 @@ export default class ProcessMessage {
     var orderStr = "";
     this.order.forEach((order, index) => {
       if (language === "spanish") {
-        orderStr += `${index + 1}) Restaurante: ${order.restaurant} Cantidad: ${
+        orderStr += `<span class=oscuro>${index + 1}) Restaurante: </span> ${order.restaurant}<br><span class=oscuro>Cantidad: </span> ${
           order.quantity
-          } Platillo: ${order.food} Precio: $${order.price} `;
+        } <br><span class=oscuro>Platillo: </span> ${order.food} <br><span class=oscuro>Precio: </span>$${order.price}<br>`;
       } else {
-        orderStr += `${index + 1}) Restaurant: ${order.restaurant} Quantity: ${
+        orderStr += `<span class=oscuro>${index + 1}) Restaurant: </span>${order.restaurant} <br><span class=oscuro>Quantity: </span>${
           order.quantity
-          } Food: ${order.food} Price: $${order.price} `;
+        } <br><span class=oscuro>Food: </span>${order.food} <br><span class=oscuro>Price:</span>$${order.price}<br>`;
       }
       total += order.price;
     });
@@ -95,10 +95,10 @@ export default class ProcessMessage {
 
       this.sortOrder();
 
-      var orderString = "Tu orden: \n";
+      var orderString = "<span class=oscuro>Tu orden: </span> <br> ";
       const { orderStr, total } = this.orderString("spanish");
       orderString += orderStr;
-      orderString += `Total: $${total}`;
+      orderString += `<br><span class=oscuro>Total: </span> $${total}`;
 
       if (this.total === total) {
         return "No encontré esos platillos en el restaurante que me dijiste.";
@@ -146,10 +146,10 @@ export default class ProcessMessage {
 
       this.sortOrder();
 
-      var orderString = "Your order: \n";
+      var orderString = "<span class=oscuro> Your order: </span><br>";
       const { orderStr, total } = this.orderString("english");
       orderString += orderStr;
-      orderString += `Total: $${total}`;
+      orderString += `<span class=oscuro>Total: </span>$${total}`;
 
       if (this.total === total) {
         return "I didn't find those meals on the restaurant you mentioned.";
