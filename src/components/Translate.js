@@ -1,5 +1,4 @@
 import React from "react";
-import getLanguages from "../languajes"
 import translateText from "../translate"
 
 export default class TranslateToPicker extends React.Component {
@@ -10,7 +9,7 @@ export default class TranslateToPicker extends React.Component {
 
   handleClick() {
     const language = this.props.language;
-    if (language == 'en-US') {
+    if (language === 'en-US') {
       translateText('es-MX', this.changeText);
     } else {
       translateText('en-US', this.changeText);

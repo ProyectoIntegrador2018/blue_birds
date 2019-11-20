@@ -4,7 +4,7 @@ retrieve a list of languages supported by Microsoft Translator. */
 const request = require('request');
 const uuidv4 = require('uuid/v4');
 
-var endpoint_var = 'TRANSLATOR_TEXT_ENDPOINT';
+//var endpoint_var = 'TRANSLATOR_TEXT_ENDPOINT';
 // if (!process.env[endpoint_var]) {
 //   throw new Error('Please set/export the following environment variable: ' + endpoint_var);
 // }
