@@ -16,13 +16,18 @@ const buttonStyle = {
 };
 
 export default class LanguagePicker extends React.Component {
+  currentLanguage = "es-MX"
+
   changeLanguage(e) {
+    const languageChanger = this.props.languageChanger;
     if (e.target.value === "es-MX") {
       this.handleChange("startRecognizeButtonEnglish", "none");
       this.handleChange("startRecognizeButtonSpanish", "block");
+      languageChanger("en-US");
     } else {
       this.handleChange("startRecognizeButtonEnglish", "block");
       this.handleChange("startRecognizeButtonSpanish", "none");
+      languageChanger("es-MX");
     }
   }
 
