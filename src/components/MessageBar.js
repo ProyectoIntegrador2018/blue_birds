@@ -2,13 +2,13 @@ import React from "react";
 import SendButton from "./SendButton";
 import Microphone from "./Microphone";
 import LanguagePicker from "./LanguagePicker";
-import wave from '../assets/soundwave.gif';
+import wave from '../assets/soundwavefinal.gif';
 
 const waveStyle = {
   display: "none",
   borderRadius: "17px",
   border: "0px",
-  width: "150px",
+  width: "50vw",
   height: "35px",
   margin: "auto"
 };
