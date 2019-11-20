@@ -16,8 +16,8 @@ export default class ProcessMessage {
     sin: 0
   };
 
-  static spanishDB = require('./spanishDB.json');
-  static englishDB = require('./englishDB.json');
+  static spanishDB = require("./spanishDB.json");
+  static englishDB = require("./englishDB.json");
 
   pushRestaurants(dataBase, message) {
     for (const restaurant in dataBase) {
@@ -44,13 +44,21 @@ export default class ProcessMessage {
     var orderStr = "";
     this.order.forEach((order, index) => {
       if (language === "spanish") {
-        orderStr += `<span class=oscuro>${index + 1}) Restaurante: </span> ${order.restaurant}<br><span class=oscuro>Cantidad: </span> ${
+        orderStr += `<span class=oscuro>${index + 1}) Restaurante: </span> ${
+          order.restaurant
+        }<br><span class=oscuro>Cantidad: </span> ${
           order.quantity
-        } <br><span class=oscuro>Platillo: </span> ${order.food} <br><span class=oscuro>Precio: </span>$${order.price}<br>`;
+        } <br><span class=oscuro>Platillo: </span> ${
+          order.food
+        } <br><span class=oscuro>Precio: </span>$${order.price}<br>`;
       } else {
-        orderStr += `<span class=oscuro>${index + 1}) Restaurant: </span>${order.restaurant} <br><span class=oscuro>Quantity: </span>${
+        orderStr += `<span class=oscuro>${index + 1}) Restaurant: </span>${
+          order.restaurant
+        } <br><span class=oscuro>Quantity: </span>${
           order.quantity
-        } <br><span class=oscuro>Food: </span>${order.food} <br><span class=oscuro>Price:</span>$${order.price}<br>`;
+        } <br><span class=oscuro>Food: </span>${
+          order.food
+        } <br><span class=oscuro>Price:</span>$${order.price}<br>`;
       }
       total += order.price;
     });
@@ -68,6 +76,12 @@ export default class ProcessMessage {
       this.order = [];
       return "Orden Cancelada";
     }
+
+    if (message === "listo" && this.order.length > 0) {
+      this.order = [];
+      return "Procesaremos tu orden en un momento, gracias por confiar en nosotros.";
+    }
+
     const textToNumbers = ProcessMessage.spanishTextToNumbers;
     const wordArray = message.split(" ");
     this.pushRestaurants(ProcessMessage.spanishDB, message);
@@ -99,6 +113,7 @@ export default class ProcessMessage {
       const { orderStr, total } = this.orderString("spanish");
       orderString += orderStr;
       orderString += `<br><span class=oscuro>Total: </span> $${total}`;
+      orderString += "<br> Si tu orden esta lista favor de decir 'Listo'.";
 
       if (this.total === total) {
         return "No encontré esos platillos en el restaurante que me dijiste.";
@@ -108,7 +123,7 @@ export default class ProcessMessage {
       }
     } else {
       this.stackMessages.push(message);
-      return "Disculpa pero no pude procesar correctamente tu orden ya que no encontré el restaurante de donde deseas ordenar, me lo puedes mencionar?";
+      return "Disculpa pero no pude procesar correctamente tu orden <br> ya que no encontré el restaurante de donde deseas ordenar, <br> me lo puedes mencionar?";
     }
   }
 
@@ -117,6 +132,11 @@ export default class ProcessMessage {
       var pastMessage = this.stackMessages.pop();
       pastMessage += ` ${message}`;
       return this.matchEnglish(pastMessage);
+    }
+
+    if (message === "ready" && this.order.length > 0) {
+      this.order = [];
+      return "We will process your order in a moment, thanks!";
     }
 
     if (message === "cancel order") {
@@ -150,6 +170,7 @@ export default class ProcessMessage {
       const { orderStr, total } = this.orderString("english");
       orderString += orderStr;
       orderString += `<span class=oscuro>Total: </span>$${total}`;
+      orderString += "<br> If your order is rady please say 'Ready'.";
 
       if (this.total === total) {
         return "I didn't find those meals on the restaurant you mentioned.";
