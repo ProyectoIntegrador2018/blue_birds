@@ -69,6 +69,18 @@ button {
   float: right;
 }
 
+.dropdown{
+  border: none;
+  border-radius: 18px;
+  height: 100%;
+  width: 150px;
+  padding: 4px 0 3px 0;
+}
+
+.dropdown>button{
+  width: 120px;
+}
+
 /* Id's */
 #phraseInput {
   background-color: rgb(241, 238, 238);
