@@ -9,7 +9,7 @@ const waveStyle = {
   display: "none",
   borderRadius: "17px",
   border: "0px",
-  width: "150px",
+  width: "50vw",
   height: "35px",
   margin: "auto"
 };
