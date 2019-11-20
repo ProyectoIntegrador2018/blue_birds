@@ -44,7 +44,7 @@ async function textToSpeech(accessToken, text, language) {
     })
     .then(function(data) {
       var url = window.URL.createObjectURL(data);
-      window.audio = TextToSpeech.audioWindow;
+      window.audio = new Audio();
       window.audio.src = url;
       window.audio.play();
     })
@@ -54,7 +54,6 @@ async function textToSpeech(accessToken, text, language) {
 }
 
 export default class TextToSpeech {
-  static audioWindow = new Audio();
   static initializeSpeech(text, language) {
     if (window.audio !== undefined) {
       window.audio.pause();
