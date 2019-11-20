@@ -46,19 +46,19 @@ export default class ProcessMessage {
       if (language === "spanish") {
         orderStr += `<span class=oscuro>${index + 1}) Restaurante: </span> ${
           order.restaurant
-        }<br><span class=oscuro>Cantidad: </span> ${
+        },<br><span class=oscuro> Cantidad: </span> ${
           order.quantity
-        } <br><span class=oscuro>Platillo: </span> ${
+        },<br><span class=oscuro> Platillo: </span> ${
           order.food
-        } <br><span class=oscuro>Precio: </span>$${order.price}<br>`;
+        },<br><span class=oscuro> Precio: </span>$${order.price}<br>`;
       } else {
         orderStr += `<span class=oscuro>${index + 1}) Restaurant: </span>${
           order.restaurant
-        } <br><span class=oscuro>Quantity: </span>${
+        },<br><span class=oscuro> Quantity: </span>${
           order.quantity
-        } <br><span class=oscuro>Food: </span>${
+        },<br><span class=oscuro> Food: </span>${
           order.food
-        } <br><span class=oscuro>Price:</span>$${order.price}<br>`;
+        },<br><span class=oscuro> Price:</span>$${order.price}<br>`;
       }
       total += order.price;
     });
@@ -112,7 +112,7 @@ export default class ProcessMessage {
       var orderString = "<span class=oscuro>Tu orden: </span> <br> ";
       const { orderStr, total } = this.orderString("spanish");
       orderString += orderStr;
-      orderString += `<br><span class=oscuro>Total: </span> $${total}`;
+      orderString += `<br><span class=oscuro>Total: </span> $${total},`;
       orderString += "<br> Si tu orden esta lista favor de decir 'Listo'.";
 
       if (this.total === total) {
@@ -169,8 +169,8 @@ export default class ProcessMessage {
       var orderString = "<span class=oscuro> Your order: </span><br>";
       const { orderStr, total } = this.orderString("english");
       orderString += orderStr;
-      orderString += `<span class=oscuro>Total: </span>$${total}`;
-      orderString += "<br> If your order is rady please say 'Ready'.";
+      orderString += `<span class=oscuro>Total: </span>$${total},`;
+      orderString += "<br> If your order is ready please say 'Ready'.";
 
       if (this.total === total) {
         return "I didn't find those meals on the restaurant you mentioned.";

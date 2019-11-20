@@ -24,10 +24,14 @@ function getAccessToken(subscriptionKey, text, language) {
 
 // Change Text to Speech
 async function textToSpeech(accessToken, text, language) {
+  var regex = /(<([^>]+)>)/gi,
+    body = text,
+    result = body.replace(regex, "");
+
   var femaleName = language === "es-MX" ? "HildaRUS" : "ZiraRUS";
   const options = {
     method: "POST",
-    body: `<speak version='1.0' xml:lang='${language}'><voice xml:lang='${language}' xml:gender='Female' name='Microsoft Server Speech Text to Speech Voice (${language}, ${femaleName})'>${text}</voice></speak>`,
+    body: `<speak version='1.0' xml:lang='${language}'><voice xml:lang='${language}' xml:gender='Female' name='Microsoft Server Speech Text to Speech Voice (${language}, ${femaleName})'>${result}</voice></speak>`,
     headers: {
       Authorization: "Bearer " + accessToken,
       "X-Microsoft-OutputFormat": "riff-16khz-16bit-mono-pcm",
