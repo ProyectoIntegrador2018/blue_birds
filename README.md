@@ -25,7 +25,7 @@ Application to test speek recognition with Azure.
 
 ### Environment URLS
 
-- **Development** - [https://blue-surf-api-explorer.herokuapp.com/](https://blue-surf-api-explorer.herokuapp.com/)
+- **Development** - [https://blue-people-api-explorer.herokuapp.com/](https://blue-people-api-explorer.herokuapp.com/)
 
 ### Team
 

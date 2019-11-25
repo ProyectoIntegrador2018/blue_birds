@@ -21,7 +21,7 @@ export default class ProcessMessage {
 
   pushRestaurants(dataBase, message) {
     for (const restaurant in dataBase) {
-      if (message.includes(restaurant)) {
+      if (message.includes(restaurant) > 0) {
         this.restaurants.push(restaurant);
       }
     }
@@ -92,7 +92,8 @@ export default class ProcessMessage {
         const element = ProcessMessage.spanishDB[restaurante];
         for (const food in element) {
           if (message.includes(food)) {
-            var indexOf = this.wordIndexOf(wordArray, food);
+            const foodArray = food.split(" ");
+            var indexOf = this.wordIndexOf(wordArray, foodArray[0]);
             const checkNum = parseInt(wordArray[indexOf - 1], 10);
             const quantity = Number.isNaN(checkNum)
               ? textToNumbers[wordArray[indexOf - 1]]
@@ -152,7 +153,8 @@ export default class ProcessMessage {
         const element = ProcessMessage.englishDB[restaurant];
         for (const food in element) {
           if (message.includes(food)) {
-            var indexOf = this.wordIndexOf(wordArray, food);
+            const foodArray = food.split(" ");
+            var indexOf = this.wordIndexOf(wordArray, foodArray[0]);
             const quantity = parseInt(wordArray[indexOf - 1], 10);
             this.order.push({
               restaurant,
