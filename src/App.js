@@ -43,7 +43,7 @@ class App extends React.Component {
       message
     });
     this.forceUpdate();
-    AzureTTSHandler.initializeSpeech(message, language)
+    AzureTTSHandler.initializeSpeech(message, language);
   }
 
   processMessage(message) {
@@ -96,13 +96,15 @@ class App extends React.Component {
 
     document.getElementsByName("language")[0].addEventListener("click", () => {
       this.pushMessageToList(
-        "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'", "es-MX"
+        "Hola, soy un asistente para un procesamiento de órdenes, qué deseas ordenar el día de hoy? Para cancelar la orden favor de decir 'Cancelar orden'",
+        "es-MX"
       );
     });
 
     document.getElementsByName("language")[1].addEventListener("click", () => {
       this.pushMessageToList(
-        "Hello, I am here to help you process your order, what would you be ordering today? To cancel your order please say 'Cancel order'", "en-US"
+        "Hello, I am here to help you process your order, what would you be ordering today? To cancel your order please say 'Cancel order'",
+        "en-US"
       );
     });
   }
