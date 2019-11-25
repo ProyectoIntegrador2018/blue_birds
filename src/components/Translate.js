@@ -1,5 +1,13 @@
 import React from "react";
 import translateText from "../translate"
+import translate from "../assets/translate.png"
+
+const btnStyle = {
+  width: "65px",
+  margin: "auto",
+  marginLeft: "-13px",
+  marginRight: "-10px"
+}
 
 export default class TranslateToPicker extends React.Component {
   changeText(text) {
@@ -19,9 +27,9 @@ export default class TranslateToPicker extends React.Component {
   render() {
 
     return (
-      <div className="dropdown">
-        <button className="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" onClick={() => this.handleClick()} >
-          Translate
+      <div>
+        <button className="btn" style={btnStyle} type="button" id="dropdownMenuButton" data-toggle="dropdown" onClick={() => this.handleClick()} >
+          <img src={translate} alt="responsive-button" />
         </button>
       </div>
     )
